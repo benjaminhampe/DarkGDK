@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>DarkGDK for Linux/Win/MacOSX build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>22-02-2014 at 19:16.10</u><br />
+Build ended on: <u>22-02-2014 at 19:16.17</u><p />
+<b>-------------- Build: Windows_Release_static in DarkGDK for Linux/Win/MacOSX (compiler: GNU GCC Compiler)---------------</b><br />
+g++.exe -fexpensive-optimizations -Os -O3 -O2 -Wall -W -Wno-unused-parameter -ffast-math -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D__GNUWIN32__ -D_IRR_STATIC_LIB_ -DNDEBUG -D_WINDOWS -I..\Irrlicht -I..\..\source\Irrlicht -I..\..\source\Irrlicht\zlib -I..\freetype -I..\freetype\devel -I..\SDL\include -I..\ext -I. -ID:\dev\SDK\mingw-32-tdm\include -ID:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2 -ID:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2\include -c D:\github\DarkGDK\include\DarkGDK\DarkGDK.cpp -o obj\Win32-gcc-Release-static\DarkGDK\DarkGDK.o<br />
+g++.exe -fexpensive-optimizations -Os -O3 -O2 -Wall -W -Wno-unused-parameter -ffast-math -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -D__GNUWIN32__ -D_IRR_STATIC_LIB_ -DNDEBUG -D_WINDOWS -I..\Irrlicht -I..\..\source\Irrlicht -I..\..\source\Irrlicht\zlib -I..\freetype -I..\freetype\devel -I..\SDL\include -I..\ext -I. -ID:\dev\SDK\mingw-32-tdm\include -ID:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2 -ID:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2\include -c D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp -o obj\Win32-gcc-Release-static\DarkGDK\DarkGDK_img.o<br />
+In file included from D:\github\DarkGDK\include\DarkGDK\DarkGDK.cpp:1:0:<br />
+<font color="#ff0000">./DarkGDK.h:22:26: fatal error: DarkGDK_midi.h: No such file or directory</font><br />
+ #include "DarkGDK_midi.h"<br />
+                          ^<br />
+compilation terminated.<br />
+<font color="#a00000">Process terminated with status 1 (0 minute(s), 3 second(s))</font><br />
+In file included from ..\ext/irrExt.h:4:0,<br />
+                 from D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp:6:<br />
+<font color="#0000ff">..\ext/UString.h:3243:43: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]</font><br />
+  const unicode::EUTF_ENCODE getEncoding() const<br />
+                                           ^<br />
+<font color="#0000ff">..\ext/UString.h:3250:45: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]</font><br />
+  const unicode::EUTF_ENDIAN getEndianness() const<br />
+                                             ^<br />
+In file included from D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp:8:0:<br />
+D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h: In constructor 'irr::DarkGDK_SGlobalStruct::DarkGDK_SGlobalStruct()':<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h:132:6: warning: 'irr::DarkGDK_SGlobalStruct::Time_Last' will be initialized after [-Wreorder]</font><br />
+  u32 Time_Last;<br />
+      ^<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h:117:20: warning:   'irr::core::position2di irr::DarkGDK_SGlobalStruct::CursorPos' [-Wreorder]</font><br />
+  core::position2di CursorPos;<br />
+                    ^<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h:161:2: warning:   when initialized here [-Wreorder]</font><br />
+  DarkGDK_SGlobalStruct() : Argc(0), Argv(0), NullDevice(0), Device(0), CurrentCamera(0), Font(0)<br />
+  ^<br />
+In file included from D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp:8:0:<br />
+D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h: In member function 'irr::gui::IGUIWindow* irr::DarkGDK_SGlobalStruct::createEscapeWindow()':<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h:248:13: warning: unused variable 'bw' [-Wunused-variable]</font><br />
+   const s32 bw =  48;<br />
+             ^<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h:252:13: warning: unused variable 'grid_cell_w' [-Wunused-variable]</font><br />
+   const s32 grid_cell_w = core::round32( (f32)w / (f32)grid_cols );<br />
+             ^<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_struct.h:255:7: warning: unused variable 'by' [-Wunused-variable]</font><br />
+   s32 by = core::round32( (f32)(grid_rows-1)*(f32)grid_cell_h );<br />
+       ^<br />
+In file included from D:\github\DarkGDK\include\DarkGDK\DarkGDK_sys.h:8:0,<br />
+                 from D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp:10:<br />
+D:\github\DarkGDK\include\DarkGDK\DarkGDK_obj.h: In function 'void irr::dbMakeObjectFromMesh(irr::u32, irr::scene::IMesh*, bool)':<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_obj.h:693:23: warning: unused variable 'driver' [-Wunused-variable]</font><br />
+  video::IVideoDriver* driver = app.Device-&gt;getVideoDriver();<br />
+                       ^<br />
+D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp: In function 'irr::u8* irr::dbLockImage(irr::u32)':<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp:462:25: warning: unused variable 'app' [-Wunused-variable]</font><br />
+  DarkGDK_SGlobalStruct&amp; app = DarkGDK_SGlobalStruct::getInstance();<br />
+                         ^<br />
+D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp: In function 'void irr::dbUnlockImage(irr::u32)':<br />
+<font color="#0000ff">D:\github\DarkGDK\include\DarkGDK\DarkGDK_img.cpp:472:25: warning: unused variable 'app' [-Wunused-variable]</font><br />
+  DarkGDK_SGlobalStruct&amp; app = DarkGDK_SGlobalStruct::getInstance();<br />
+                         ^<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 6 second(s))</font><br />
+<font color="#0000ff">1 error(s), 319 warning(s) (0 minute(s), 6 second(s))</font><br />
+</tt>
+</body>
+</html>

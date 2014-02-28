@@ -1,0 +1,152 @@
+========================================================================
+    WIN32 APPLICATION : Siedler von Catan 3D Projectdetails
+========================================================================
+STEUERUNG
+
+Maustaste 1 					:: de/aktiviert buttons, dialoge und setzt objecte
+Maustaste 2 + Mausrad 				:: Camerasteuerung
+Tasten UP,DOWN,LEFT,RIGHT,SHIFT,CRTL 		:: Camerasteuerung
+Taste F1					:: Bauliste
+TASTE ^						:: Entwickler Console (cl.h)
+
+=======================================================================================================
+FORTSCHRITT
+
+- es wird nur das Standartspiel unterstützt, jedoch kann die karte frei zusammengebaut werden.
+  da die Waypoints unabhängig berechnet werden und die Häfen einen Rotationswert haben, sodass
+  bei ihnen auch die richtigen 2 Waypoints für Siedlungsbau verwendet werden.
+- die Nummern der Zahlenchips basieren auf dem Zufall, 
+  haben aber die gleiche Verteilung wie im Originalspiel unabhängig vom Spielaufbau
+- es können maximal 5 Spieler teilnehmen, 
+- die KI ist noch nicht integriert, solange die Spiellogik nicht einwandfrei ist.
+- ich habe noch keinerlei Anstrengungen für Multiplayer gemacht.
+- es gibt noch keine Dialoge für Auflösung, PlayerCreate, PlayCard, TradeCard, Bank und Stealcard.
+- es gibt noch keine Function, die die längste zusammenhängende Strasse ermittelt
+=======================================================================================================
+DESIGN
+
+- ich verwende meinen persönlichen C++ Götter:
+  -> die Template Klasse vector<> in fast allen bereichen
+     damit ist eine von der Spielerzahl unabhängige Gestaltung der Spiellogik ein Kinderspiel
+  -> die Klasse Stringstream um Worte und Werte miteinander elegant zu verknüpfen
+     und speichere sie als std::string und gebe sie als LPSTR oder LPCSTR an meine funktionen 
+- es werden keine Sprites verwendet da ich keinen Vorteil sehe, 
+  zumal meine UI keine rotierenden oder verzerrenden Bilder benötigt.
+
+========================================================================================================
+SPIELLOGIK
+- jede Loopiteration beginnt mit Mouse_Control(),Camera_Control(), UI_Control, dann Spiellogik!!!
+- jede veränderung der UI muss durch verändern von Werten im Playerarray game.player beginnen und dann durch
+  UI_Update() sichtbar gemacht werden.
+- jede Suche nach einem Button oder Text wird durch getBTN(char*) oder getTXT(char*) bewerkstelligt.
+  sollte der Name nicht existieren wird eine MEssagebox ausgegeben, die den falschen Namen anzeigt und
+  sofort das gesammte Spiel beendet um einem Laufzeitfehler vorzubeugen der 100% der CPU verbrät und ein
+  manuelles Beenden unmöglich macht, da Windows nicht mehr reagiert.
+- nach jeder ausführung eines Buttons wird UI_ResetActiveButton() ausgeführt. 
+  -> dann ist game.btn_active=-1 und 
+  -> game.mode_ui=NONE. Also wieder im leerlauf, um auf den nächsten klich auf einen button zu warten.
+- Wenn ein Spieler fertig ist und auf den Button End_Turn klickt wird das Ereignis ENDE aktiviert.
+- Der Wechsel eines Spielers wird durch Next_Player() und SetActivePlayer(nr) bewerkstelligt, 
+  dabei wird game.runde++ (inkrementiert) und bei game.runde==game.player.size() wird das UI_Ereignis
+  END_ROUND aktiviert, sodass nachdem alle Spieler einmal gezogen haben einen neue Runde beginnen kann,
+  unabhängig davon welcher Spieler die Runde begonnen hat.
+- Die Darstellung von Haupttexten ist Zeitgesteuert und wird durch die Globale game.zeit bewerkstelligt.
+- Die LogTexte rechts im Bildschirm sind in game.info gespeichert und werden am ende als logdatei gespeichert
+  es werden nur die letzen 20 einträge angezeigt also von size()-20 bis size()
+ 
+- Intro Runde 1 (Auswürfeln vonStartplayer ) und Runde 2 (Setzen der ersten 2 Siedlungen und Strassen) sind
+  recht eigenwillig in Spiellogik und somit für den Rest des Spiels nicht als referenzfunctionen geeignet,
+  daher gibt es für diese Phasen eigene Funktionen
+- Setzen einer Siedlung wird vorher auf machbarkeit gecheckt und hat die Deaktivierung
+  (nicht löschung aus dem Array) der Nachbarwaypoints zur Folge.
+  Check : - min. 1 Strasse des Players muss an den Waypoint angrenzen
+		  - jeder Nachbar des Waypoints muss deaktiviert sein.
+ 
+
+### main.cpp	::	Hauptquellcodedatei
+
+- enthält die MAIN DarkGDK Entry function
+- öffnet das hauptfenster
+- zeigt die introscreen
+- setzt globale einstellungen
+- lädt init_d3d von Cloggy, game_init, game_control, game_delete
+- setzt Cloggy fonts
+
+### stdafx.h
+
+- enthält alle standart VSC++ Headerdateien die gebraucht werden
+
+### stdafx.cpp
+
+- leer
+
+### resource.h
+
+- enthält nur die ID des Application-Icons
+
+### global.h		::	TGC DarkGDK Header
+
+- enthält einige Makros für Speicherdeallokation und sicherer Pointerlöschung
+
+### globstruct.h	::	TGC DarkGDK Header
+
+- enthält die globalen DarkGDK Pointer und Daten
+
+### _game_functions.h
+
+- enthält die Spiellogik und Laden von allen nötigen Ressourcen, sowie die Erstellung von Objecten
+
+### _game_functions2.h
+
+- enthält kleine Functionen die im Spiel von Vorteil sind
+
+### _game_types.h
+
+- enthält alle Strukturen die im Spiel benötig werden
+
+### ui_control.h
+
+- enthält alle functionen die mit dem anzeigen des user-interfaces notwendig sind
+- steuert die buttons durch mausabfragen
+- erneuert den ui inhalt bei playerwechsel und veränderung von playerwerten
+
+### ui_create.h
+
+- lädt alle ui-bilder
+- füllt das button array game.btn
+- füllt das text array game.txt
+
+### player.h
+
+- erzeugt daten und ressourcen für spieler
+- enthält next_player_clockwise(), next_player_counterclockwise(), set_active_player(), set_first_player()
+- enthält functionen zum verändern der playerdaten.
+
+### cl.h
+
+- enthält kommandos für commandline interface
+
+
+### main.h
+
+- enthält alle globalen variablen und strukturen (auch Cloggys strukturen für texte)
+
+### namespace thc :: FUNCTIONS-BIBLIOTHEKEN von _NEO_CORTEX
+{
+	text.h		-> Cloggy's	  D3DTextfunctionen (sind 10x schöner und 50x schneller als DarkGDK -> unbezahlbar)
+	camera.h	-> NeoCortex' Camera Strukturen, Globale Variablen und Functionen (unabhängig von main.h)
+	mouse.h		-> NeoCortex' Maus Strukturen, Globale Variablen und Functionen (unabhängig von main.h)
+	delete.h	-> NeoCortex' FileDelete(), MemblockDelete(), ImageDelete()
+	exist.h		-> NeoCortex' FileExist() -> ohne DB nur mit Standart C++
+	is.h		-> NeoCortex' Prüft ob DB-Media existiert (spart 1 Zeile und ist sicher)
+	free.h		-> NeoCortex' Gibt eine freie Nummer eines DB-Medientyps zurück	
+	round.h		-> NeoCortex' Round() (ohne ASSEMBLER)
+	string.h	-> NeoCortex' Stringfunctionen, gebraucht werden nur 2 (STRING_LEFT und STRING_RIGHT)
+	vector.h	-> NeoCortex' Vectorlibrary
+	vertex.h	-> NeoCortex' VertexLibrary
+	log.h		-> NeoCortex' Logfunctionen mit SystemZeit (nur für Debug gebraucht)
+	memblock.h  -> NeoCortex' Memblocklibrary für Imagebearbeitung
+	image.h		-> NeoCortex' Imagelibrary Erstellt Images mit Memblocklibrary
+	mesh.h		-> NeoCortex' Meshlibrary - Erstellt benötigte Meshes durch Vertexlibrary
+	object.h	-> NeoCortex' Objectlibrary - Erstellt benötigte Objecte durch Meshlibrary und Imagelibrary
+}

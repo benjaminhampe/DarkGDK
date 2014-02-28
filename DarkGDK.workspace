@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="DarkGDK Examples and Library">
+		<Project filename="include/DarkGDK/libDarkGDK.cbp" />
+		<Project filename="examples/StarBench/StarBench.cbp" />
+		<Project filename="examples/Siedler3d/Siedler3d.cbp" />
+		<Project filename="examples/FPS-Cube/FPS-Cube.cbp" />
+		<Project filename="examples/GeometryBuilder/GeometryBuilder.cbp" />
+		<Project filename="examples/irrlicht_sfml_midi/irrlicht_sfml_midi.cbp" />
+		<Project filename="examples/cpp_parser/cpp_parser.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

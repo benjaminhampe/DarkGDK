@@ -1,0 +1,38 @@
+37
+Land Wueste,0,0,0,0
+Land Weizen,1,2,6,0
+Land Weizen,1,-2,6,0
+Land Weizen,1,-2,-6,0
+Land Weizen,1,0,-6,0
+Land Holz,2,-1,3,0
+Land Holz,2,0,6,0
+Land Holz,2,-3,-3,0
+Land Holz,2,3,-3,0
+Land Wolle,3,1,3,0
+Land Wolle,3,4,0,0
+Land Wolle,3,3,3,0
+Land Wolle,3,-4,0,0
+Land Erz,4,2,0,0
+Land Erz,4,-1,-3,0
+Land Erz,4,2,-6,0
+Land Lehm,5,-2,0,0
+Land Lehm,5,1,-3,0
+Land Lehm,5,-3,3,0
+Hafen 3zu1,6,6,0,1
+Hafen 3zu1,6,4,6,1
+Hafen 3zu1,7,-5,-3,5
+Hafen 3zu1,7,1,-9,5
+Hafen Weizen,8,4,-6,1
+Hafen Holz,9,-5,3,4
+Hafen Wolle,10,1,9,2
+Hafen Erz,11,-3,9,3
+Hafen Lehm,12,-3,-9,5
+Wasser,13,-1,-9,0
+Wasser,14,3,-9,0
+Wasser,14,5,-3,0
+Wasser,15,5,3,0
+Wasser,16,3,9,0
+Wasser,16,-1,9,0
+Wasser,17,-4,6,0
+Wasser,18,-6,0,0
+Wasser,18,-4,-6,0

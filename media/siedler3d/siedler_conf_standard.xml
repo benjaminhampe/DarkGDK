@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<!-- 
+
+	1d Array CSiedlerStandardApp :: Textures
+
+-->
+<texture-list name="siedler-tex-standard" count="20">
+	<i name="unknown.jpg" />
+	<i name="land_wueste.jpg" />
+	<i name="land_weizen.jpg" />
+	<i name="land_holz.jpg" />
+	<i name="land_wolle.jpg" />
+	<i name="land_erz.jpg" />
+	<i name="land_lehm.jpg" />
+	<i name="hafen3zu1_120.jpg" />
+	<i name="hafen3zu1_000.jpg" />
+	<i name="hafenweizen.jpg" />
+	<i name="hafenholz.jpg" />
+	<i name="hafenwolle.jpg" />
+	<i name="hafenerz.jpg" />
+	<i name="hafenlehm.jpg" />
+	<i name="wasser_000.jpg" />
+	<i name="wasser_060.jpg" />
+	<i name="wasser_120.jpg" />
+	<i name="wasser_180.jpg" />
+	<i name="wasser_240.jpg" />
+	<i name="wasser_300.jpg" />
+</texture-list>
+
+<!-- 
+
+	1d Array CSiedlerStandardApp :: Tiles
+
+-->
+<tileplan name="siedler-standard-tileplan" count="37" rows="11" cols="11" x="10" y="2" z="12" >
+	<i name="Land_Wueste" type="0" x="0" z="0" angle="0" />
+	<i name="Land_Weizen" type="1" x="2" z="6" angle="0" />
+	<i name="Land_Weizen" type="1" x="-2" z="6" angle="0" />
+	<i name="Land_Weizen" type="1" x="-2" z="-6" angle="0" />
+	<i name="Land_Weizen" type="1" x="0" z="-6" angle="0" />
+	<i name="Land_Holz" type="2" x="-1" z="3" angle="0" />
+	<i name="Land_Holz" type="2" x="0" z="6" angle="0" />
+	<i name="Land_Holz" type="2" x="-3" z="-3" angle="0" />
+	<i name="Land_Holz" type="2" x="3" z="-3" angle="0" />
+	<i name="Land_Wolle" type="3" x="1" z="3" angle="0" />
+	<i name="Land_Wolle" type="3" x="4" z="0" angle="0" />
+	<i name="Land_Wolle" type="3" x="3" z="3" angle="0" />
+	<i name="Land_Wolle" type="3" x="-4" z="0" angle="0" />
+	<i name="Land_Erz" type="4" x="2" z="0" angle="0" />
+	<i name="Land_Erz" type="4" x="-1" z="-3" angle="0" />
+	<i name="Land_Erz" type="4" x="2" z="-6" angle="0" />
+	<i name="Land_Lehm" type="5" x="-2" z="0" angle="0" />
+	<i name="Land_Lehm" type="5" x="1" z="-3" angle="0" />
+	<i name="Land_Lehm" type="5" x="-3" z="3" angle="0" />
+	<i name="Hafen_3zu1" type="6" x="6" z="0" angle="1" />
+	<i name="Hafen_3zu1" type="6" x="4" z="6" angle="1" />
+	<i name="Hafen_3zu1" type="7" x="-5" z="-3" angle="5" />
+	<i name="Hafen_3zu1" type="7" x="1" z="-9" angle="5" />
+	<i name="Hafen_Weizen" type="8" x="4" z="-6" angle="1" />
+	<i name="Hafen_Holz" type="9" x="-5" z="3" angle="4" />
+	<i name="Hafen_Wolle" type="10" x="1" z="9" angle="2" />
+	<i name="Hafen_Erz" type="11" x="-3" z="9" angle="3" />
+	<i name="Hafen_Lehm" type="12" x="-3" z="-9" angle="5" />
+	<i name="Wasser" type="13" x="-1" z="-9" angle="0" />
+	<i name="Wasser" type="14" x="3" z="-9" angle="0" />
+	<i name="Wasser" type="14" x="5" z="-3" angle="0" />
+	<i name="Wasser" type="15" x="5" z="3" angle="0" />
+	<i name="Wasser" type="16" x="3" z="9" angle="0" />
+	<i name="Wasser" type="16" x="-1" z="9" angle="0" />
+	<i name="Wasser" type="17" x="-4" z="6" angle="0" />
+	<i name="Wasser" type="18" x="-6" z="0" angle="0" />
+	<i name="Wasser" type="18" x="-4" z="-6" angle="0" />
+</tileplan>
+
+<!-- 
+
+	class CSiedlerStandardApp
+
+-->
+<video-settings>
+	<gpu-card>0</gpu-card>
+	<display-mode>800,600,32</display-mode>
+	<driver-type>EDT_OPENGL</driver-type>
+	<fullscreen>0</fullscreen>
+	<window-pos>100,100</window-pos>
+	<anti-aliasing>EAAM_QUALITY</anti-aliasing>
+	<double-buffer>1</double-buffer>
+	<bilinear-filter>1</bilinear-filter>
+	<trilinear-filter>1</trilinear-filter>
+	<anisotropic-filter>1</anisotropic-filter>
+	<sfml-audio>1</sfml-audio>
+</video-settings>
+<!-- 
+
+	class CSiedlerStandardApp
+
+-->
+
+
+<CSiedlerGame name="siedler-standard">
+
+	<!-- Global Variables -->	
+	<var type="u32" name="gametype" value="0">
+	<var type="u32" name="minplayer" value="2">
+	<var type="u32" name="maxplayer" value="8">
+	<var type="u32" name="playercount" value="4">
+
+	<!-- Board Tiles -->
+	<tileplan name="siedler-standard" />
+	
+	<!-- Human Player -->
+	<player id="1" type="human" name="Player">
+		
+	</player>
+	
+	<!-- Computer Player -->
+	<player id="2" type="cpu" name="CPU-Player-1">
+		
+	</player>
+
+	<!-- Computer Player -->
+	<player id="3" type="cpu" name="CPU-Player-2">
+		
+	</player>
+
+	<!-- Computer Player -->
+	<player id="4" type="cpu" name="CPU-Player-3">
+		
+	</player>		
+	
+<!--
+	<gui>
+		<image x1="0" y1="0" w="50" h="50" src="" />
+		<button text="Dice" enabled="false" x1="0" y1="0" w="50" h="50" alt="Press to dice." />
+		<button text="Dice" enabled="false" x1="0" y1="0" w="50" h="50" alt="Press to dice." />
+	</gui>
+-->
+	<!--
+		<probabilities>
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+		<probabilities>
+	-->
+	
+	
+</CSiedlerGame>

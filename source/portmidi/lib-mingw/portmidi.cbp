@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="portmidi" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\pm_common\;CMake Files\pm_win\;CMake Files\pm_test\;CMake Files\pm_dylib\;CMake Files\pm_java\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pmjni">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/libpmjni.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include" />
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include/win32" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 pmjni" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pmjni/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/libpmjni.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include" />
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include/win32" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 pmjni/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="portmidi-static">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/libportmidi_s.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include" />
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include/win32" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 portmidi-static" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="portmidi-static/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/libportmidi_s.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include" />
+            <Add directory="C:/Program Files/Java/jdk1.7.0_40/include/win32" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 portmidi-static/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="latency">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/latency.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 latency" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="latency/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/latency.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 latency/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="midiclock">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/midiclock.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 midiclock" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="midiclock/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/midiclock.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 midiclock/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="midithread">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/midithread.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 midithread" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="midithread/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/midithread.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 midithread/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="midithru">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/midithru.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 midithru" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="midithru/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/midithru.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 midithru/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mm">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/mm.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 mm" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mm/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/mm.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 mm/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="qtest">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/qtest.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 qtest" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="qtest/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/qtest.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 qtest/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysex">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/sysex.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 sysex" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sysex/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/sysex.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 sysex/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/test.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/test.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 test/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="portmidi-dynamic">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/libportmidi.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 portmidi-dynamic" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="portmidi-dynamic/fast">
+         <Option output="D:/github/DarkGDK/source/portmidi/lib-mingw/libportmidi.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/github/DarkGDK/source/portmidi/pm_common" />
+            <Add directory="D:/github/DarkGDK/source/portmidi/porttime" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/../../../../include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include-fixed" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/backward" />
+            <Add directory="d:\dev\sdk\mingw-32-tdm\bin\../lib/gcc/mingw32/4.8.1-dw2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 portmidi-dynamic/fast" />
+            <CompileFile command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/dev/SDK/mingw-32-tdm/bin/mingw32-make.exe -f &quot;D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_common/pmutil.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_common/portmidi.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_java/pmjni/pmjni.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/latency.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/midiclock.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/midithread.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/midithru.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/mm.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/qtest.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/sysex.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/test.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_win/pmwin.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_win/pmwinmm.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/porttime/ptwinmm.c">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_common/pmutil.h">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_common/portmidi.h">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_win/pmwinmm.h">
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pm_common\" />
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_win/static.cmake">
+          <Option virtualFolder="CMake Files\pm_win\" />
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_win/static.cmake">
+          <Option virtualFolder="CMake Files\pm_win\" />
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pm_test\" />
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_dylib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pm_dylib\" />
+      </Unit>
+      <Unit filename="D:/github/DarkGDK/source/portmidi/pm_java/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\pm_java\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

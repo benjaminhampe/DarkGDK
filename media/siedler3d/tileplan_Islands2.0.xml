@@ -1,0 +1,46 @@
+<!-- This File is part of the game SiedlerVonKatan3D (c) 2008 - 2012 by BenjaminHampe@gmx.de -->
+<!-- License: LGPL, free open source -->
+
+<!-- all paths in this file are relative to this file's parent directory -->
+<!-- so be careful not to move the file in another directory -->
+<!-- the media directory is stored in class CSiedlerGame and can be accessed by all classes having a pointer to it -->
+
+<tileplan name="siedler-standard" type="0" rows="11" cols="11" count="37" x="10" y="2" z="12">
+	<tile name="Land_Wueste" type="0" x="0" z="0" angle="0" />
+	<tile name="Land_Weizen" type="1" x="2" z="6" angle="0" />
+	<tile name="Land_Weizen" type="1" x="-2" z="6" angle="0" />
+	<tile name="Land_Weizen" type="1" x="-2" z="-6" angle="0" />
+	<tile name="Land_Weizen" type="1" x="0" z="-6" angle="0" />
+	<tile name="Land_Holz" type="2" x="-1" z="3" angle="0" />
+	<tile name="Land_Holz" type="2" x="0" z="6" angle="0" />
+	<tile name="Land_Holz" type="2" x="-3" z="-3" angle="0" />
+	<tile name="Land_Holz" type="2" x="3" z="-3" angle="0" />
+	<tile name="Land_Wolle" type="3" x="1" z="3" angle="0" />
+	<tile name="Land_Wolle" type="3" x="4" z="0" angle="0" />
+	<tile name="Land_Wolle" type="3" x="3" z="3" angle="0" />
+	<tile name="Land_Wolle" type="3" x="-4" z="0" angle="0" />
+	<tile name="Land_Erz" type="4" x="2" z="0" angle="0" />
+	<tile name="Land_Erz" type="4" x="-1" z="-3" angle="0" />
+	<tile name="Land_Erz" type="4" x="2" z="-6" angle="0" />
+	<tile name="Land_Lehm" type="5" x="-2" z="0" angle="0" />
+	<tile name="Land_Lehm" type="5" x="1" z="-3" angle="0" />
+	<tile name="Land_Lehm" type="5" x="-3" z="3" angle="0" />
+	<tile name="Hafen_3zu1" type="6" x="6" z="0" angle="1" />
+	<tile name="Hafen_3zu1" type="6" x="4" z="6" angle="1" />
+	<tile name="Hafen_3zu1" type="7" x="-5" z="-3" angle="5" />
+	<tile name="Hafen_3zu1" type="7" x="1" z="-9" angle="5" />
+	<tile name="Hafen_Weizen" type="8" x="4" z="-6" angle="1" />
+	<tile name="Hafen_Holz" type="9" x="-5" z="3" angle="4" />
+	<tile name="Hafen_Wolle" type="10" x="1" z="9" angle="2" />
+	<tile name="Hafen_Erz" type="11" x="-3" z="9" angle="3" />
+	<tile name="Hafen_Lehm" type="12" x="-3" z="-9" angle="5" />
+	<tile name="Wasser" type="13" x="-1" z="-9" angle="0" />
+	<tile name="Wasser" type="14" x="3" z="-9" angle="0" />
+	<tile name="Wasser" type="14" x="5" z="-3" angle="0" />
+	<tile name="Wasser" type="15" x="5" z="3" angle="0" />
+	<tile name="Wasser" type="16" x="3" z="9" angle="0" />
+	<tile name="Wasser" type="16" x="-1" z="9" angle="0" />
+	<tile name="Wasser" type="17" x="-4" z="6" angle="0" />
+	<tile name="Wasser" type="18" x="-6" z="0" angle="0" />
+	<tile name="Wasser" type="18" x="-4" z="-6" angle="0" />
+</tileplan>

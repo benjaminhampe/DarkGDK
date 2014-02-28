@@ -1,0 +1,109 @@
+(c) 2007 _neo_cortex
+######################################################################################################
+###
+### Liesmich : Zusammenfassung aller Dateien
+###			   Projektdokumentation
+###
+######################################################################################################
+global.h		::		DarkGDK Header
+globalstruct.h		::		DarkGDK Header
+resource.h		::		Application Icon
+Siedler3D.rc		::		Application Icon
+stdafx.h		::		Standart Header der alle genutzen MSVC++ Header enthält
+stdafx.cpp		::		Standart Definitionen -> leer
+main.h			::		Globale Variablen die für die Application gebraucht werden
+main.cpp		::		DarkGDK Entry Point, IntroScreen, Main Loop, Aufruf von Game_Init,Game_Control
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_cl.h
+_cl.cpp
+
+			COMMANDOZEILEN INTERFACE für den Entwickler also mich, Cheatkonsole
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_game_control.h
+_game_control.cpp
+
+			SPIELLOGIK, PROGRAMM-ABLAUF und die Erstellung aller im Spiel benötigten Ressourcen,
+			bzw.der Aufruf aller Funktionen die diese Erzeugen.
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_game_types.h
+
+			alle STRUKTUREN die für das SPIEL benötigt werden.
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_mesh.cpp
+_mesh.h
+
+			Enthält Funktionen für die Erzeugung der speziellen Meshes des SPIELs
+			"Zahlenchip","Hexagon","Waypoint","Strasse","Siedlung","Stadt"
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_object.cpp
+_object.h
+
+			Enthält Funktionen für die Erzeugung der speziellen Objekte des SPIELs
+			"Zahlenchip","Hexagon","Waypoint","Strasse","Siedlung","Stadt"
+			basiert auf _mesh.cpp und den Texturen der Spieler und den Werten von game.size etc.
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_player.h
+_player.cpp
+
+			Erzeugt alle Texturen, füllt alle Strukturen die ein Player besitzt
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_ui_create.h
+_ui_create.cpp
+
+			Erzeugt alle 2D Buttons der GUI die von allen Playern genutzt werden.
+			Erzeugt alle Texte die einem Button gehören. (z.B. Anzahl Lehm über Image von Lehm)
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+_ui_control.h
+_ui_control.cpp
+
+			Steuert die 2D Buttons der GUI, sendet Events an game.mode_ui, 
+			stellt Funktionen für die einfache Suche nach Buttons bereit, 
+			Updatet die GUI abhängig vom aktuellen Player, PlayerType, booleanwerten aus game.
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+				###		LIBRARY von NeoCortex für Basisfunktionen		###
+
+			###	die eigentlich in jedem Programm von NeoCortex verwendet werden	###
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+(c) 2007 _neo_cortex
+
+namespace thc
+{
+	# thc_camera		: Camera Steuerung
+	# thc_mouse			: Mouse Steuerung -> erstzt die unzuverlässigen dbBefehle dbMouseMoveX, dbMouseMoveY
+
+	# thc_backbuffer	: Funktionen für das Zeichnen direkt auf dem Bildschirm (nur Test)
+	# thc_text			: Cloggy's Antialiased Text/Fontfunktionen, sehr geil und 100x schneller als dbText()
+	# thc_capture		: macht Screenshots vom Desktop oder nur vom D3D Fenster
+	# thc_delete		: sichere Löschfunktionen, vermeiden Programmabsturz
+	# thc_desktop		: Elementarfunktionen, DesktopX/Y/Z/Hz, ScreenX/Y/Z
+	# thc_free			: gibt freie Ressourcennummern zurück
+	# thc_gui			: 2D Graphical User Interface für Dialoge (noch nicht implementiert)
+	# thc_is			: prüft ob Dateien oder Ressourcen existieren
+	# thc_log			: Dateilogging (schlechter Debug-Ersatz)	
+	# thc_math			: Mathematische Konstanten und Funktionen	
+
+	# thc_image				: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+	# thc_memblock			: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+	# thc_memblock_blend	: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+	# thc_memblock_floodfill: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+	# thc_memblock_painting	: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+	# thc_memblock_rotating	: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+	# thc_memblock_scaling	: Auszug aus _neo_cortex's ImageDll (nur die im Spiel gebrauchten Funktionen)
+
+	# thc_timer				: umgebaute Microtimer Klasse aus der ImageDLL für Timed_Text
+							  Klasse Timed_Text ist in _ui_control.h
+	
+	# thc_mesh			: Elementarfunktionen
+	# thc_object		: Elementarfunktionen	
+	# thc_skybox		: Skybox Klasse (save noch nicht fertig)	
+
+	# thc_string	: Elementarfunktionen	
+	# thc_vector	: mein Vektorbaukasten : kein DB, keine Klassen
+	# thc_vertex    : mein Vertexbaukasten : für die Erzeugung von Objekten
+}
+
+(c) 2007 _neo_cortex

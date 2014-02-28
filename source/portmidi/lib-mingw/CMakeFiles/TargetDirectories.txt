@@ -1,0 +1,11 @@
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/latency.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/midiclock.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/midithread.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/midithru.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/mm.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/CMakeFiles/pmjni.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_dylib/CMakeFiles/portmidi-dynamic.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_common/CMakeFiles/portmidi-static.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/qtest.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/sysex.dir
+D:/github/DarkGDK/source/portmidi/lib-mingw/pm_test/CMakeFiles/test.dir

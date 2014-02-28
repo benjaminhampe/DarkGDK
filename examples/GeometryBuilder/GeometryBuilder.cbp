@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GDK Example 04 GeometryBuilder" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Linux_Release_static">
+				<Option platforms="Unix;" />
+				<Option output="../../bin/Linux/FPS-Cube" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="../../bin/Linux/" />
+				<Option object_output="obj/Linux_Release_static" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="DarkGDK" />
+					<Add library="freetype" />
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="X11" />
+					<Add library="GL" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Linux_Release_shared">
+				<Option platforms="Unix;" />
+				<Option output="../../bin/Linux/FPS-Cube" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="../../bin/Linux/" />
+				<Option object_output="obj/Linux_Release_shared" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="DarkGDK" />
+					<Add library="freetype" />
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="X11" />
+					<Add library="GL" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Linux_Debug_static">
+				<Option platforms="Unix;" />
+				<Option output="../../bin/Linux/FPS-Cube" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="../../bin/Linux/" />
+				<Option object_output="obj/Linux_Debug_static" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="DarkGDK" />
+					<Add library="freetype" />
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="X11" />
+					<Add library="GL" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Linux_Debug_shared">
+				<Option platforms="Unix;" />
+				<Option output="../../bin/Linux/FPS-Cube" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="../../bin/Linux/" />
+				<Option object_output="obj/Linux_Debug_shared" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="DarkGDK" />
+					<Add library="freetype" />
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="X11" />
+					<Add library="GL" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Win32_Release_shared">
+				<Option platforms="Windows;" />
+				<Option output="../../bin/Win32-gcc/FPS-Cube" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="../../bin/Win32-gcc/" />
+				<Option object_output="obj/Win32_Release_shared" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+				</Compiler>
+				<Linker>
+					<Add library="DarkGDK" />
+					<Add library="freetype" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="kernel32" />
+					<Add library="advapi32" />
+					<Add library="uuid" />
+					<Add library="winmm" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="shell32" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Win32_Release_static">
+				<Option platforms="Windows;" />
+				<Option output="../../bin/Win32-gcc/FPS-Cube" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="../../bin/Win32-gcc/" />
+				<Option object_output="obj/Win32_Release_shared" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\lib\Win32-gcc\libDarkGDK.a" />
+					<Add library="glu32" />
+					<Add library="opengl32" />
+					<Add library="freetype" />
+					<Add library="shell32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="kernel32" />
+					<Add library="advapi32" />
+					<Add library="uuid" />
+					<Add library="winmm" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Win32_Release_shared;Linux_Release_static;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="../../include/Irrlicht" />
+			<Add directory="../../include/freetype" />
+			<Add directory="../../include/freetype/devel" />
+			<Add directory="../../include/SDL/include" />
+			<Add directory="../../include/ext" />
+			<Add directory="../../include/DarkGDK" />
+		</Compiler>
+		<Unit filename="GeometryBuilder_main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

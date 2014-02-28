@@ -1,0 +1,48 @@
+
+</game name="siedler-standard">
+	<tileplan name="siedler-standard" />
+	
+	<var type="u32" name="gametype" value="0">
+	<var type="u32" name="minplayer" value="2">
+	<var type="u32" name="maxplayer" value="8">
+	<var type="u32" name="playercount" value="4">
+	
+	<player id="1" type="human" name="Player">
+		
+	</player>
+	
+	<player id="2" type="cpu" name="CPU-Player-1">
+		
+	</player>
+
+	<player id="3" type="cpu" name="CPU-Player-2">
+		
+	</player>
+
+	<player id="4" type="cpu" name="CPU-Player-3">
+		
+	</player>		
+	
+<!--
+	<gui>
+		<image x1="0" y1="0" w="50" h="50" src="" />
+		<button text="Dice" enabled="false" x1="0" y1="0" w="50" h="50" alt="Press to dice." />
+		<button text="Dice" enabled="false" x1="0" y1="0" w="50" h="50" alt="Press to dice." />
+	</gui>
+-->
+	<!--
+		<probabilities>
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+			<prob name="2" value="0.0625";
+		<probabilities>
+	-->
+	
+	
+</game>

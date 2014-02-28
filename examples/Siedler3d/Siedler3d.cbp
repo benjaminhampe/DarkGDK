@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="siedler3d" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Linux_Debug">
+				<Option platforms="Unix;" />
+				<Option output="siedler3d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Linux_Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Linux_Release">
+				<Option platforms="Unix;" />
+				<Option output="siedler3d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Linux_Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="--static" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add directory="../../include/Irrlicht" />
+					<Add directory="../../include/SFML-2.1" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\..\lib\Linux\libIrrlicht.a" />
+					<Add library="..\..\lib\Linux\libsfml-system.a" />
+					<Add library="..\..\lib\Linux\libsfml-audio.a" />
+					<Add library="Xxf86vm" />
+					<Add library="GL" />
+					<Add library="GLU" />
+					<Add library="X11" />
+				</Linker>
+			</Target>
+			<Target title="Win32_Release">
+				<Option platforms="Windows;" />
+				<Option output="../../bin/Win32-gcc/siedler3d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../bin/Win32-gcc/" />
+				<Option object_output="obj/Win32_Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="--static" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add directory="../../include/SFML-2.1" />
+					<Add directory="../../include/Irrlicht" />
+					<Add directory="../../include/ext" />
+					<Add directory="../../include/freetype" />
+				</Compiler>
+				<Linker>
+					<Add library="Irrlicht" />
+					<Add library="freetype" />
+					<Add library="gdi32" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="winmm" />
+					<Add library="advapi32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="fftw3" />
+					<Add directory="../../lib/Win32-gcc" />
+				</Linker>
+			</Target>
+			<Target title="Win32_Debug">
+				<Option platforms="Windows;" />
+				<Option output="../../bin/Win32-gcc/siedler3d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../bin/Win32-gcc/" />
+				<Option object_output="obj/Win32_Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wnon-virtual-dtor" />
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../include/DarkGDK/DarkGDK_audio.h" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_cam.cpp" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_cam.h" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_img.cpp" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_img.h" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_math.cpp" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_math.h" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_obj.cpp" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_obj.h" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_string.cpp" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_string.h" />
+		<Unit filename="../../include/DarkGDK/DarkGDK_struct.h" />
+		<Unit filename="../../include/DarkGDK/tinyDarkGDK.cpp" />
+		<Unit filename="../../include/DarkGDK/tinyDarkGDK.h" />
+		<Unit filename="../../include/ext/CAutoMeshSceneNode.cpp" />
+		<Unit filename="../../include/ext/CAutoMeshSceneNode.h" />
+		<Unit filename="../../include/ext/CC++Parser.cpp" />
+		<Unit filename="../../include/ext/CC++Parser.h" />
+		<Unit filename="../../include/ext/CDateTime.cpp" />
+		<Unit filename="../../include/ext/CDateTime.h" />
+		<Unit filename="../../include/ext/CGUITTFont.cpp" />
+		<Unit filename="../../include/ext/CGUITTFont.h" />
+		<Unit filename="../../include/ext/CGUIViewport.cpp" />
+		<Unit filename="../../include/ext/CGUIViewport.h" />
+		<Unit filename="../../include/ext/CImageLoaderXPM.cpp" />
+		<Unit filename="../../include/ext/CImageLoaderXPM.h" />
+		<Unit filename="../../include/ext/CImageWriterXPM.cpp" />
+		<Unit filename="../../include/ext/CImageWriterXPM.h" />
+		<Unit filename="../../include/ext/CLinearColorGradient.cpp" />
+		<Unit filename="../../include/ext/CLinearColorGradient.h" />
+		<Unit filename="../../include/ext/CLinearColorGradientTable.cpp" />
+		<Unit filename="../../include/ext/CLinearColorGradientTable.h" />
+		<Unit filename="../../include/ext/CMath.cpp" />
+		<Unit filename="../../include/ext/CMath.h" />
+		<Unit filename="../../include/ext/CMatrix.cpp" />
+		<Unit filename="../../include/ext/CMatrix.h" />
+		<Unit filename="../../include/ext/CMatrixSceneNode.cpp" />
+		<Unit filename="../../include/ext/CMatrixSceneNode.h" />
+		<Unit filename="../../include/ext/IColorGradient.h" />
+		<Unit filename="../../include/ext/IFunction.h" />
+		<Unit filename="../../include/ext/IGUITTFont.h" />
+		<Unit filename="../../include/ext/UString.h" />
+		<Unit filename="../../include/ext/geometry.cpp" />
+		<Unit filename="../../include/ext/geometry.h" />
+		<Unit filename="../../include/ext/geometry_meshbuffer.cpp" />
+		<Unit filename="../../include/ext/geometry_meshbuffer.h" />
+		<Unit filename="../../include/ext/imageTool.cpp" />
+		<Unit filename="../../include/ext/imageTool.h" />
+		<Unit filename="../../include/ext/imageTool_Draw.cpp" />
+		<Unit filename="../../include/ext/imageTool_Filter.cpp" />
+		<Unit filename="../../include/ext/imageTool_FloodFill.cpp" />
+		<Unit filename="../../include/ext/imageTool_Repeat.cpp" />
+		<Unit filename="../../include/ext/imageTool_Resize.cpp" />
+		<Unit filename="../../include/ext/imageTool_Rotate.cpp" />
+		<Unit filename="../../include/ext/imageTool_Text.cpp" />
+		<Unit filename="../../include/ext/readFile.cpp" />
+		<Unit filename="../../include/ext/readFile.h" />
+		<Unit filename="../../include/ext/renderByPrimitiveType.cpp" />
+		<Unit filename="../../include/ext/renderByPrimitiveType.h" />
+		<Unit filename="../../include/ext/renderToImage.cpp" />
+		<Unit filename="../../include/ext/renderToImage.h" />
+		<Unit filename="../../include/ext/sinCosTable.h" />
+		<Unit filename="Siedler3d.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

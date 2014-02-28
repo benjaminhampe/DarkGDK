@@ -1,0 +1,2460 @@
+# depslib dependency file v1.0
+1391333511 source:/media/Erde/github/DarkGDK/examples/FPS-Cube/FPS-Cube.cpp
+	<DarkGDK.h>
+
+1391201660 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK.h
+	<irrlicht.h>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<ctime>
+	<cstdio>
+	<cstdlib>
+	<cstdarg>
+	"../ext/CAutoMeshSceneNode.h"
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	"DarkGDK_sys.h"
+	"DarkGDK_img.h"
+	"DarkGDK_obj.h"
+	"DarkGDK_cam.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IColladaMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IRandomizer.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneLoader.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
+	<tchar.h>
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/vector3d.h
+	"irrMath.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IReferenceCounted.h
+	"irrTypes.h"
+	"leakHunter.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/leakHunter.h
+	"IrrCompileConfig.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/heapsort.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/position2d.h
+	"vector2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EMaterialTypes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EMaterialFlags.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SVertexIndex.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EHardwareBufferFlags.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EPrimitiveTypes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/path.h
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ECullingTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EDebugSceneTypes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EDriverFeatures.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EDriverTypes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EGUIAlignment.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EGUIElementTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EMessageBoxFlags.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ESceneNodeAnimatorTypes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ETerrainElements.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SExposedVideoData.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrpack.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrunpack.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ILogger.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/Keycodes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EAttributes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EShaderTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIButton.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUICheckBox.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIComboBox.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIImage.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUISpinBox.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIToolbar.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SLight.h
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IColladaMeshWriter.h
+	"IMeshWriter.h"
+	"ISceneNode.h"
+	"IAnimatedMesh.h"
+	"SMaterial.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IOSOperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IRandomizer.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/EDeviceTypes.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ITimer.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SceneParameters.h
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ITextSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+	"position2d.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SKeyMap.h
+	"Keycodes.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1390013986 /media/Erde/github/DarkGDK/include/Irrlicht/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1391212714 /media/Erde/github/DarkGDK/include/ext/CAutoMeshSceneNode.h
+	<irrlicht.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CMeshSceneNode.h>
+	<../../source/Irrlicht/CShadowVolumeSceneNode.h>
+	<GL/gl.h>
+
+1390013967 /media/Erde/github/DarkGDK/source/Irrlicht/os.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	"irrString.h"
+	"path.h"
+	"ILogger.h"
+	"ITimer.h"
+
+1390013957 /media/Erde/github/DarkGDK/source/Irrlicht/CMeshSceneNode.h
+	"IMeshSceneNode.h"
+	"IMesh.h"
+
+1390013954 /media/Erde/github/DarkGDK/source/Irrlicht/CShadowVolumeSceneNode.h
+	"IShadowVolumeSceneNode.h"
+
+1391332666 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK_struct.h
+	<irrlicht.h>
+	<CAutoMeshSceneNode.h>
+
+1391332666 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK_math.h
+	<irrlicht.h>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<ctime>
+	<cstdio>
+	<cstdlib>
+	<cstdarg>
+
+1391333372 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK_sys.h
+	<irrlicht.h>
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	"DarkGDK_obj.h"
+	"DarkGDK_cam.h"
+
+1391334098 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK_obj.h
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	<imageTool.h>
+
+1391332095 /media/Erde/github/DarkGDK/include/ext/imageTool.h
+	<irrlicht.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CColorConverter.h>
+	<../../source/Irrlicht/CImage.h>
+
+1390013954 /media/Erde/github/DarkGDK/source/Irrlicht/CColorConverter.h
+	"irrTypes.h"
+	"IImage.h"
+
+1390013957 /media/Erde/github/DarkGDK/source/Irrlicht/CImage.h
+	"IImage.h"
+	"rect.h"
+
+1391333005 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK_cam.h
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	<../../source/Irrlicht/CSceneNodeAnimatorCameraFPS.h>
+
+1390013957 /media/Erde/github/DarkGDK/source/Irrlicht/CSceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimatorCameraFPS.h"
+	"vector2d.h"
+	"position2d.h"
+	"SKeyMap.h"
+	"irrArray.h"
+
+1391264502 /media/Erde/github/DarkGDK/include/DarkGDK/DarkGDK_img.h
+	<irrlicht.h>
+	<../../source/Irrlicht/CImage.h>
+	<irrExt.h>
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+
+1391261239 /media/Erde/github/DarkGDK/include/ext/irrExt.h
+	"UString.h"
+	"IGUITTFont.h"
+	"CGUITTFont.h"
+	"CImageLoaderXPM.h"
+	"CImageWriterXPM.h"
+	"sinCosTable.h"
+	"IFunction.h"
+	"CMath.h"
+	"CMatrix.h"
+	"CMatrixSceneNode.h"
+	"IColorGradient.h"
+	"CLinearColorGradient.h"
+	"CLinearColorGradientTable.h"
+	"CAutoMeshSceneNode.h"
+	"geometry.h"
+	"renderByPrimitiveType.h"
+	"renderToImage.h"
+	"imageTool.h"
+
+1363647459 /media/Erde/github/DarkGDK/include/ext/UString.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<cstddef>
+	<utility>
+	<string>
+	<iterator>
+	<ostream>
+	<functional>
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrArray.h"
+	"irrMath.h"
+	"irrString.h"
+	"path.h"
+
+1391205493 /media/Erde/github/DarkGDK/include/ext/IGUITTFont.h
+	<irrlicht.h>
+	<UString.h>
+
+1390786633 /media/Erde/github/DarkGDK/include/ext/CGUITTFont.h
+	<irrlicht.h>
+	<ft2build.h>
+	"IGUITTFont.h"
+
+1384332396 /media/Erde/github/DarkGDK/include/freetype/ft2build.h
+	<config/ftheader.h>
+
+1384255659 /media/Erde/github/DarkGDK/include/freetype/config/ftheader.h
+
+1391208797 /media/Erde/github/DarkGDK/include/ext/CImageLoaderXPM.h
+	"IrrCompileConfig.h"
+	<irrTypes.h>
+	<irrArray.h>
+	<irrString.h>
+	<IReadFile.h>
+	<iso646.h>
+	<IImageLoader.h>
+	<SColor.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CColorConverter.h>
+	<../../source/Irrlicht/CImage.h>
+	<iostream>
+	<fstream>
+
+1391208883 /media/Erde/github/DarkGDK/include/ext/CImageWriterXPM.h
+	"IrrCompileConfig.h"
+	<irrlicht.h>
+	<IImageWriter.h>
+	<SColor.h>
+	"irrMath.h"
+	<../../source/Irrlicht/os.h>
+	<CMath.h>
+
+1391208931 /media/Erde/github/DarkGDK/include/ext/CMath.h
+	<irrlicht.h>
+	<ctime>
+	<cmath>
+
+1390772674 /media/Erde/github/DarkGDK/include/ext/sinCosTable.h
+	<irrlicht.h>
+
+1385820923 /media/Erde/github/DarkGDK/include/ext/IFunction.h
+
+1391209001 /media/Erde/github/DarkGDK/include/ext/CMatrix.h
+	<cstdlib>
+	<cstdio>
+	<irrlicht.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CImage.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1391206379 /media/Erde/github/DarkGDK/include/ext/CMatrixSceneNode.h
+	<irrlicht.h>
+	<ISceneNode.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CImage.h>
+	<cmath>
+	"CMatrix.h"
+	"renderByPrimitiveType.h"
+	"IColorGradient.h"
+
+1391209063 /media/Erde/github/DarkGDK/include/ext/renderByPrimitiveType.h
+	<irrlicht.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1391206386 /media/Erde/github/DarkGDK/include/ext/IColorGradient.h
+	<irrlicht.h>
+	<../../source/Irrlicht/CImage.h>
+	<../../source/Irrlicht/os.h>
+
+1386981282 /media/Erde/github/DarkGDK/include/ext/CLinearColorGradient.h
+	<irrlicht.h>
+	"IColorGradient.h"
+
+1387569836 /media/Erde/github/DarkGDK/include/ext/CLinearColorGradientTable.h
+	<irrlicht.h>
+	"IColorGradient.h"
+
+1391538183 /media/Erde/github/DarkGDK/include/ext/geometry.h
+	<irrlicht.h>
+	"CAutoMeshSceneNode.h"
+	"IFunction.h"
+	"sinCosTable.h"
+	<functional>
+
+1384654856 /media/Erde/github/DarkGDK/include/ext/renderToImage.h
+	<irrlicht.h>
+
+1392625336 source:d:\github\darkgdk\examples\fps-cube\fps-cube.cpp
+	<DarkGDK.h>
+
+1391201660 d:\github\darkgdk\include\darkgdk\darkgdk.h
+	<irrlicht.h>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<ctime>
+	<cstdio>
+	<cstdlib>
+	<cstdarg>
+	"../ext/CAutoMeshSceneNode.h"
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	"DarkGDK_sys.h"
+	"DarkGDK_img.h"
+	"DarkGDK_obj.h"
+	"DarkGDK_cam.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IColladaMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IRandomizer.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneLoader.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrcompileconfig.h
+	<stdio.h>
+	<xtl.h>
+	<tchar.h>
+
+1390013986 d:\github\darkgdk\include\irrlicht\aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrmath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrtypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1390013986 d:\github\darkgdk\include\irrlicht\plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\vector3d.h
+	"irrMath.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\cdynamicmeshbuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\idynamicmeshbuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imeshbuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ireferencecounted.h
+	"irrTypes.h"
+	"leakHunter.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\leakhunter.h
+	"IrrCompileConfig.h"
+	"irrArray.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrarray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\heapsort.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrallocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1390013986 d:\github\darkgdk\include\irrlicht\smaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\scolor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\position2d.h
+	"vector2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrstring.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1390013986 d:\github\darkgdk\include\irrlicht\ematerialtypes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\ematerialflags.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\smateriallayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\s3dvertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\svertexindex.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ehardwarebufferflags.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\eprimitivetypes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\ivertexbuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iindexbuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\cvertexbuffer.h
+	"IVertexBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\cindexbuffer.h
+	"IIndexBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\cmeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\coreutil.h
+	"irrString.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\path.h
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ecullingtypes.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\edebugscenetypes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\edriverfeatures.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\edrivertypes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\eguialignment.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\eguielementtypes.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\emeshwriterenums.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\emessageboxflags.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\escenenodeanimatortypes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\escenenodetypes.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\eterrainelements.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ianimatedmesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ianimatedmeshmd2.h
+	"IAnimatedMesh.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ianimatedmeshmd3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iq3shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ifilesystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ixmlreader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrxml.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1390013986 d:\github\darkgdk\include\irrlicht\ifilearchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ireadfile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ifilelist.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ivideodriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\itexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iimage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sexposedvideodata.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrpack.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrunpack.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\ianimatedmeshscenenode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iattributeexchangingobject.h
+	"IReferenceCounted.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenodeanimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ieventreceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ilogger.h
+	"IReferenceCounted.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\keycodes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\itriangleselector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrlist.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iattributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\eattributes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\ibonescenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ibillboardscenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ibillboardtextscenenode.h
+	"IBillboardSceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\icamerascenenode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\icursorcontrol.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\idummytransformationscenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\igeometrycreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\igpuprogrammingservices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\eshadertypes.h
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguibutton.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguielement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguicheckbox.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguicolorselectdialog.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguicombobox.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguicontextmenu.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguieditbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguielementfactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguienvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguiskin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguifileopendialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguifont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguifontbitmap.h
+	"IGUIFont.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguiimage.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguiinoutfader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguilistbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguimeshviewer.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguiscrollbar.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguispinbox.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguispritebank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguistatictext.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguitabcontrol.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguitable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguitoolbar.h
+	"IGUIElement.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguiwindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguitreeview.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iguiimagelist.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iimageloader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iimagewriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ilightscenenode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\slight.h
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imaterialrenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imaterialrendererservices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imeshcache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imeshloader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imeshmanipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\svertexmanipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imeshscenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imeshwriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\icolladameshwriter.h
+	"IMeshWriter.h"
+	"ISceneNode.h"
+	"IAnimatedMesh.h"
+	"SMaterial.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\imetatriangleselector.h
+	"ITriangleSelector.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iosoperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlesystemscenenode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticleanimatedmeshscenenodeemitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticleemitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sparticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticleboxemitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlecylinderemitter.h
+	"IParticleEmitter.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlemeshemitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticleringemitter.h
+	"IParticleEmitter.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlesphereemitter.h
+	"IParticleEmitter.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticleattractionaffector.h
+	"IParticleAffector.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticleaffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlefadeoutaffector.h
+	"IParticleAffector.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlegravityaffector.h
+	"IParticleAffector.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iparticlerotationaffector.h
+	"IParticleAffector.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iq3levelmesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irandomizer.h
+	"IReferenceCounted.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrlichtdevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\edevicetypes.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\ivideomodelist.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\itimer.h
+	"IReferenceCounted.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\irrmap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenecollisionmanager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\isceneloader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenemanager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sceneparameters.h
+
+1390013986 d:\github\darkgdk\include\irrlicht\iskinnedmesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sskinmeshbuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenodeanimatorcamerafps.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+	"irrArray.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenodeanimatorcameramaya.h
+	"ISceneNodeAnimator.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenodeanimatorcollisionresponse.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenodeanimatorfactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iscenenodefactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\isceneuserdataserializer.h
+	"IReferenceCounted.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ishaderconstantsetcallback.h
+	"IReferenceCounted.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ishadowvolumescenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iterrainscenenode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\itextscenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ivolumelightscenenode.h
+	"ISceneNode.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\iwritefile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ixmlwriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ilightmanager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sanimatedmesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sirrcreationparameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+	"position2d.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\skeymap.h
+	"Keycodes.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\smesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\smeshbuffer.h
+	"CMeshBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\smeshbufferlightmap.h
+	"CMeshBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\smeshbuffertangents.h
+	"CMeshBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\ssharedmeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1390013986 d:\github\darkgdk\include\irrlicht\sviewfrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1391212714 d:\github\darkgdk\include\ext\cautomeshscenenode.h
+	<irrlicht.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CMeshSceneNode.h>
+	<../../source/Irrlicht/CShadowVolumeSceneNode.h>
+	<GL/gl.h>
+
+1390013967 d:\github\darkgdk\source\irrlicht\os.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	"irrString.h"
+	"path.h"
+	"ILogger.h"
+	"ITimer.h"
+
+1390013957 d:\github\darkgdk\source\irrlicht\cmeshscenenode.h
+	"IMeshSceneNode.h"
+	"IMesh.h"
+
+1390013954 d:\github\darkgdk\source\irrlicht\cshadowvolumescenenode.h
+	"IShadowVolumeSceneNode.h"
+
+1392589132 d:\github\darkgdk\include\darkgdk\darkgdk_struct.h
+	<irrlicht.h>
+	<CAutoMeshSceneNode.h>
+
+1391332666 d:\github\darkgdk\include\darkgdk\darkgdk_math.h
+	<irrlicht.h>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<ctime>
+	<cstdio>
+	<cstdlib>
+	<cstdarg>
+
+1392589783 d:\github\darkgdk\include\darkgdk\darkgdk_sys.h
+	<irrlicht.h>
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	"DarkGDK_obj.h"
+	"DarkGDK_cam.h"
+
+1392625298 d:\github\darkgdk\include\darkgdk\darkgdk_obj.h
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	"DarkGDK_img.h"
+	<geometry.h>
+	<imageTool.h>
+
+1392250833 d:\github\darkgdk\include\ext\imagetool.h
+	<irrlicht.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CColorConverter.h>
+	<../../source/Irrlicht/CImage.h>
+
+1390013954 d:\github\darkgdk\source\irrlicht\ccolorconverter.h
+	"irrTypes.h"
+	"IImage.h"
+
+1390013957 d:\github\darkgdk\source\irrlicht\cimage.h
+	"IImage.h"
+	"rect.h"
+
+1392250921 d:\github\darkgdk\include\darkgdk\darkgdk_cam.h
+	"DarkGDK_struct.h"
+	"DarkGDK_math.h"
+	<../../source/Irrlicht/CSceneNodeAnimatorCameraFPS.h>
+
+1390013957 d:\github\darkgdk\source\irrlicht\cscenenodeanimatorcamerafps.h
+	"ISceneNodeAnimatorCameraFPS.h"
+	"vector2d.h"
+	"position2d.h"
+	"SKeyMap.h"
+	"irrArray.h"
+
+1392625324 d:\github\darkgdk\include\darkgdk\darkgdk_img.h
+	<irrlicht.h>
+	<imageTool.h>
+
+1391888059 d:\github\darkgdk\include\ext\irrext.h
+	"UString.h"
+	"IGUITTFont.h"
+	"CGUITTFont.h"
+	"CImageLoaderXPM.h"
+	"CImageWriterXPM.h"
+	"sinCosTable.h"
+	"IFunction.h"
+	"CMath.h"
+	"CMatrix.h"
+	"CMatrixSceneNode.h"
+	"IColorGradient.h"
+	"CLinearColorGradient.h"
+	"CLinearColorGradientTable.h"
+	"CAutoMeshSceneNode.h"
+	"geometry_meshbuffer.h"
+	"geometry.h"
+	"renderByPrimitiveType.h"
+	"renderToImage.h"
+	"imageTool.h"
+
+1363647459 d:\github\darkgdk\include\ext\ustring.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<cstddef>
+	<utility>
+	<string>
+	<iterator>
+	<ostream>
+	<functional>
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrArray.h"
+	"irrMath.h"
+	"irrString.h"
+	"path.h"
+
+1391205493 d:\github\darkgdk\include\ext\iguittfont.h
+	<irrlicht.h>
+	<UString.h>
+
+1390786633 d:\github\darkgdk\include\ext\cguittfont.h
+	<irrlicht.h>
+	<ft2build.h>
+	"IGUITTFont.h"
+
+1384332396 d:\github\darkgdk\include\freetype\ft2build.h
+	<config/ftheader.h>
+
+1384255659 d:\github\darkgdk\include\freetype\config\ftheader.h
+
+1391208797 d:\github\darkgdk\include\ext\cimageloaderxpm.h
+	"IrrCompileConfig.h"
+	<irrTypes.h>
+	<irrArray.h>
+	<irrString.h>
+	<IReadFile.h>
+	<iso646.h>
+	<IImageLoader.h>
+	<SColor.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CColorConverter.h>
+	<../../source/Irrlicht/CImage.h>
+	<iostream>
+	<fstream>
+
+1391208883 d:\github\darkgdk\include\ext\cimagewriterxpm.h
+	"IrrCompileConfig.h"
+	<irrlicht.h>
+	<IImageWriter.h>
+	<SColor.h>
+	"irrMath.h"
+	<../../source/Irrlicht/os.h>
+	<CMath.h>
+
+1391888089 d:\github\darkgdk\include\ext\cmath.h
+	<irrlicht.h>
+	<ctime>
+	<cmath>
+
+1390772674 d:\github\darkgdk\include\ext\sincostable.h
+	<irrlicht.h>
+
+1385820923 d:\github\darkgdk\include\ext\ifunction.h
+
+1391209001 d:\github\darkgdk\include\ext\cmatrix.h
+	<cstdlib>
+	<cstdio>
+	<irrlicht.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CImage.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1391556123 d:\github\darkgdk\include\ext\cmatrixscenenode.h
+	<irrlicht.h>
+	<ISceneNode.h>
+	<../../source/Irrlicht/os.h>
+	<../../source/Irrlicht/CImage.h>
+	<cmath>
+	"CMatrix.h"
+	"renderByPrimitiveType.h"
+	"IColorGradient.h"
+
+1391209063 d:\github\darkgdk\include\ext\renderbyprimitivetype.h
+	<irrlicht.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1391206386 d:\github\darkgdk\include\ext\icolorgradient.h
+	<irrlicht.h>
+	<../../source/Irrlicht/CImage.h>
+	<../../source/Irrlicht/os.h>
+
+1386981282 d:\github\darkgdk\include\ext\clinearcolorgradient.h
+	<irrlicht.h>
+	"IColorGradient.h"
+
+1387569836 d:\github\darkgdk\include\ext\clinearcolorgradienttable.h
+	<irrlicht.h>
+	"IColorGradient.h"
+
+1391888025 d:\github\darkgdk\include\ext\geometry.h
+	<irrlicht.h>
+	<geometry_meshbuffer.h>
+	"CAutoMeshSceneNode.h"
+
+1384654856 d:\github\darkgdk\include\ext\rendertoimage.h
+	<irrlicht.h>
+
+1392066890 d:\github\darkgdk\include\ext\geometry_meshbuffer.h
+	<irrlicht.h>
+	"CAutoMeshSceneNode.h"
+	"IFunction.h"
+	"sinCosTable.h"
+	<functional>
+

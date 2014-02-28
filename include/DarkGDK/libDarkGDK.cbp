@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DarkGDK for Linux/Win/MacOSX" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Windows_Release_static">
+				<Option platforms="Windows;" />
+				<Option output="../../lib/Win32-gcc/libDarkGDK" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Win32-gcc-Release-static" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-W" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-ffast-math" />
+					<Add option="-DWIN32" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D__GNUWIN32__" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../lib/Win32-gcc" />
+				</Linker>
+			</Target>
+			<Target title="Linux_Release_static">
+				<Option platforms="Unix;" />
+				<Option output="../../lib/Linux/libDarkGDK.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="obj/Linux_Release_static" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="GL" />
+					<Add library="X11" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Linux_Release_shared">
+				<Option platforms="Unix;" />
+				<Option output="../../lib/Linux/DarkGDK.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="../../lib/Linux" />
+				<Option object_output="obj/Linux_Release_shared" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Xxf86vm" />
+					<Add library="Xcursor" />
+					<Add library="GL" />
+					<Add library="X11" />
+					<Add directory="../../lib/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Windows_Debug_static">
+				<Option platforms="Windows;" />
+				<Option output="../../lib/Win32-gcc/libDarkGDKd" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Win32-gcc-Debug-static" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-W" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-ffast-math" />
+					<Add option="-DWIN32" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D__GNUWIN32__" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../lib/Win32-gcc" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Windows;Linux_Release_static;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="../Irrlicht" />
+			<Add directory="../../source/Irrlicht" />
+			<Add directory="../../source/Irrlicht/zlib" />
+			<Add directory="../freetype" />
+			<Add directory="../freetype/devel" />
+			<Add directory="../SDL/include" />
+			<Add directory="../ext" />
+			<Add directory="." />
+		</Compiler>
+		<Unit filename="../ext/CAutoMeshSceneNode.cpp" />
+		<Unit filename="../ext/CAutoMeshSceneNode.h" />
+		<Unit filename="../ext/CDateTime.cpp" />
+		<Unit filename="../ext/CDateTime.h" />
+		<Unit filename="../ext/CGUITTFont.cpp" />
+		<Unit filename="../ext/CGUITTFont.h" />
+		<Unit filename="../ext/CGUIViewport.cpp" />
+		<Unit filename="../ext/CGUIViewport.h" />
+		<Unit filename="../ext/CImageLoaderXPM.cpp" />
+		<Unit filename="../ext/CImageLoaderXPM.h" />
+		<Unit filename="../ext/CImageWriterXPM.cpp" />
+		<Unit filename="../ext/CImageWriterXPM.h" />
+		<Unit filename="../ext/CLinearColorGradient.cpp" />
+		<Unit filename="../ext/CLinearColorGradient.h" />
+		<Unit filename="../ext/CLinearColorGradientTable.cpp" />
+		<Unit filename="../ext/CLinearColorGradientTable.h" />
+		<Unit filename="../ext/CMath.cpp" />
+		<Unit filename="../ext/CMath.h" />
+		<Unit filename="../ext/CMatrix.cpp" />
+		<Unit filename="../ext/CMatrix.h" />
+		<Unit filename="../ext/CMatrixSceneNode.cpp" />
+		<Unit filename="../ext/CMatrixSceneNode.h" />
+		<Unit filename="../ext/IColorGradient.cpp" />
+		<Unit filename="../ext/IColorGradient.h" />
+		<Unit filename="../ext/IFunction.h" />
+		<Unit filename="../ext/IGUITTFont.h" />
+		<Unit filename="../ext/UString.h" />
+		<Unit filename="../ext/geometry.cpp" />
+		<Unit filename="../ext/geometry.h" />
+		<Unit filename="../ext/geometry_meshbuffer.cpp" />
+		<Unit filename="../ext/geometry_meshbuffer.h" />
+		<Unit filename="../ext/imageTool.cpp" />
+		<Unit filename="../ext/imageTool.h" />
+		<Unit filename="../ext/imageTool_Draw.cpp" />
+		<Unit filename="../ext/imageTool_Filter.cpp" />
+		<Unit filename="../ext/imageTool_FloodFill.cpp" />
+		<Unit filename="../ext/imageTool_Repeat.cpp" />
+		<Unit filename="../ext/imageTool_Resize.cpp" />
+		<Unit filename="../ext/imageTool_Rotate.cpp" />
+		<Unit filename="../ext/imageTool_Text.cpp" />
+		<Unit filename="../ext/irrExt.h" />
+		<Unit filename="../ext/irrImage.cpp" />
+		<Unit filename="../ext/readFile.cpp" />
+		<Unit filename="../ext/readFile.h" />
+		<Unit filename="../ext/renderByPrimitiveType.cpp" />
+		<Unit filename="../ext/renderByPrimitiveType.h" />
+		<Unit filename="../ext/renderToImage.cpp" />
+		<Unit filename="../ext/renderToImage.h" />
+		<Unit filename="../ext/sinCosTable.h" />
+		<Unit filename="DarkGDK.cpp" />
+		<Unit filename="DarkGDK.h" />
+		<Unit filename="DarkGDK_audio.h" />
+		<Unit filename="DarkGDK_cam.cpp" />
+		<Unit filename="DarkGDK_cam.h" />
+		<Unit filename="DarkGDK_img.cpp" />
+		<Unit filename="DarkGDK_img.h" />
+		<Unit filename="DarkGDK_math.cpp" />
+		<Unit filename="DarkGDK_math.h" />
+		<Unit filename="DarkGDK_obj.cpp" />
+		<Unit filename="DarkGDK_obj.h" />
+		<Unit filename="DarkGDK_struct.cpp" />
+		<Unit filename="DarkGDK_struct.h" />
+		<Unit filename="DarkGDK_sys.cpp" />
+		<Unit filename="DarkGDK_sys.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

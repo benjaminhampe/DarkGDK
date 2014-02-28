@@ -1,0 +1,16 @@
+TASTATUR
+
+ESC - Quit
+^   - Konsole
+F1  - Bauliste
+
+Left/Right Cursor	: Camera Rotate um Y
+Shift/Ctrl			: Camera Y hoch runter
+Up/Down Cursor		: Camera Vor/Zurück
+
+MAUS 
+
+Maus Taste1			: Objekt platzieren, GUI Click
+Maus Taste2			: Free Camera
+Maus Taste2 + MoveZ	: Free Camera Move
+

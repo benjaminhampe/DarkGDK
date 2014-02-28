@@ -1,0 +1,129 @@
+ 
+void CD3D9Driver::draw2DImageBatch(
+	const video::ITexture* texture,
+    const core::array<core::rect<s32> >& destinationRects, //positions
+    const core::array<core::rect<s32> >& sourceRects,
+    const core::rect<s32>* clipRect,
+    const SColor& color, bool useAlphaChannelOfTexture )
+{
+    if (!texture) return;
+    if (!setActiveTexture(0, const_cast<video::ITexture*>(texture))) return;
+ 
+    const irr::u32 drawCount = core::min_<u32>(
+	destinationRects.size(), sourceRects.size());
+    core::array<S3DVertex> vtx(drawCount * 4);
+    core::array<u16> indices(drawCount * 6);
+ 
+    for(u32 i = 0;i < drawCount;i++)
+    {
+        core::position2d<s32> targetPos = destinationRects[i].UpperLeftCorner;
+        core::position2d<s32> sourcePos = sourceRects[i].UpperLeftCorner;
+    
+		// This needs to be signed as it may go negative.
+        core::dimension2d<s32> sourceSize(sourceRects[i].getSize());
+        core::dimension2d<s32> destinationSize(destinationRects[i].getSize());
+        const core::dimension2d<u32>& renderTargetSize = getCurrentRenderTargetSize();
+        s32 originalSize,shift;
+         core::rect<s32> currentClipRect(0,0,renderTargetSize.Width,renderTargetSize.Height);
+ 
+        //The original clip is the screen, or the current renderTarget.
+        //This way we supress extra, and potentially undesirable modifications to the sizes
+        //It is actually faster (no extra divisions or multiplications, only additions and substractions)
+        //It only relies on Irrlitch code, which is portable
+        //And we make sure the clipping works as expected in EVERY situation.
+ 
+		if(clipRect)
+		{
+            if(clipRect->UpperLeftCorner.X > currentClipRect.UpperLeftCorner.X){ currentClipRect.UpperLeftCorner.X=clipRect->UpperLeftCorner.X;}
+            if(clipRect->UpperLeftCorner.Y > currentClipRect.UpperLeftCorner.Y){ currentClipRect.UpperLeftCorner.Y=clipRect->UpperLeftCorner.Y;}
+            if(clipRect->LowerRightCorner.X < currentClipRect.LowerRightCorner.X){ currentClipRect.LowerRightCorner.X=clipRect->LowerRightCorner.X;}
+            if(clipRect->LowerRightCorner.Y < currentClipRect.LowerRightCorner.Y){ currentClipRect.LowerRightCorner.Y=clipRect->LowerRightCorner.Y;}
+        }
+        //We intersect the clipping rectangles here.
+ 
+        if (targetPos.X < currentClipRect.UpperLeftCorner.X)
+        {
+            shift=(targetPos.X-currentClipRect.UpperLeftCorner.X)*sourceSize.Width/destinationSize.Width;
+ 
+                destinationSize.Width += targetPos.X - currentClipRect.UpperLeftCorner.X;
+                if (destinationSize.Width <= 0)
+                    continue;
+ 
+                sourcePos.X -= shift;
+                sourceSize.Width += shift;
+                targetPos.X = currentClipRect.UpperLeftCorner.X;
+        }
+ 
+        if (targetPos.X + (s32)destinationSize.Width > currentClipRect.LowerRightCorner.X)
+        {
+            originalSize=destinationSize.Width;
+            destinationSize.Width -= (targetPos.X + destinationSize.Width) - currentClipRect.LowerRightCorner.X;
+            if (destinationSize.Width <= 0)
+                continue;
+ 
+            sourceSize.Width = destinationSize.Width*sourceSize.Width/originalSize;
+        }
+ 
+        if (targetPos.Y < currentClipRect.UpperLeftCorner.Y)
+        {
+            shift=(targetPos.Y-currentClipRect.UpperLeftCorner.Y)*sourceSize.Height/destinationSize.Height;
+            destinationSize.Height += targetPos.Y - currentClipRect.UpperLeftCorner.Y;
+            if (destinationSize.Height <= 0)
+                continue;
+ 
+            sourcePos.Y -= shift;
+            sourceSize.Height += shift;
+            targetPos.Y = currentClipRect.UpperLeftCorner.Y;
+        }
+ 
+        if (targetPos.Y + (s32)destinationSize.Height > currentClipRect.LowerRightCorner.Y)
+        {
+            originalSize=destinationSize.Height;
+            destinationSize.Height -= (targetPos.Y + destinationSize.Height) - currentClipRect.LowerRightCorner.Y;
+            if (destinationSize.Height <= 0)
+                continue;
+ 
+            sourceSize.Height = destinationSize.Height*sourceSize.Height/originalSize;
+        }
+ 
+        // ok, we've clipped everything.
+        // now draw it.
+ 
+        core::rect<f32> tcoords;
+        tcoords.UpperLeftCorner.X = (((f32)sourcePos.X)) / texture->getOriginalSize().Width ;
+        tcoords.UpperLeftCorner.Y = (((f32)sourcePos.Y)) / texture->getOriginalSize().Height;
+        tcoords.LowerRightCorner.X = tcoords.UpperLeftCorner.X + ((f32)(sourceSize.Width) / texture->getOriginalSize().Width);
+        tcoords.LowerRightCorner.Y = tcoords.UpperLeftCorner.Y + ((f32)(sourceSize.Height) / texture->getOriginalSize().Height);
+ 
+        const core::rect<s32> poss(targetPos, destinationSize);
+ 
+        setRenderStates2DMode(color.getAlpha()<255, true, useAlphaChannelOfTexture);
+ 
+        vtx.push_back(S3DVertex((f32)poss.UpperLeftCorner.X, (f32)poss.UpperLeftCorner.Y, 0.0f,
+                0.0f, 0.0f, 0.0f, color, toords.UpperLeftCorner.X, tcoords.UpperLeftCorner.Y));
+        vtx.push_back(S3DVertex((f32)poss.LowerRightCorner.X, (f32)poss.UpperLeftCorner.Y, 0.0f,
+                0.0f, 0.0f, 0.0f, color, tcoords.LowerRightCorner.X, tcoords.UpperLeftCorner.Y));
+        vtx.push_back(S3DVertex((f32)poss.LowerRightCorner.X, (f32)poss.LowerRightCorner.Y, 0.0f,
+                0.0f, 0.0f, 0.0f, color, tcoords.LowerRightCorner.X, tcoords.LowerRightCorner.Y));
+        vtx.push_back(S3DVertex((f32)poss.UpperLeftCorner.X, (f32)poss.LowerRightCorner.Y, 0.0f,
+                0.0f, 0.0f, 0.0f, color, tcoords.UpperLeftCorner.X, tcoords.LowerRightCorner.Y));
+ 
+        const u32 curPos = vtx.size()-4;
+        indices.push_back(0+curPos);
+        indices.push_back(1+curPos);
+        indices.push_back(2+curPos);
+ 
+        indices.push_back(0+curPos);
+        indices.push_back(2+curPos);
+        indices.push_back(3+curPos);
+    }
+ 
+    if (vtx.size())
+    {
+        setVertexShader(EVT_STANDARD);
+ 
+        pID3DDevice->DrawIndexedPrimitiveUP(D3DPT_TRIANGLELIST, 0, vtx.size(), indices.size() / 3, indices.pointer(),
+            D3DFMT_INDEX16,vtx.pointer(), sizeof(S3DVertex));
+    }
+}
+ 

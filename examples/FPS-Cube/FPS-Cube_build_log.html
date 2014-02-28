@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>GDK Example 03 FPS-Cube build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>17-02-2014 at 10:22.16</u><br />
+Build ended on: <u>17-02-2014 at 10:22.21</u><p />
+<b>-------------- Build: Win32_Release_static in GDK Example 03 FPS-Cube (compiler: GNU GCC Compiler)---------------</b><br />
+g++.exe -Wall -g -D_IRR_STATIC_LIB_ -I..\..\include\Irrlicht -I..\..\include\freetype -I..\..\include\freetype\devel -I..\..\include\SDL\include -I..\..\include\ext -I..\..\include\DarkGDK -ID:\dev\SDK\mingw-32-tdm\include -ID:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2 -ID:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2\include -c D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp -o obj\Win32_Release_shared\FPS-Cube.o<br />
+<font color="#0000ff">D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]</font><br />
+ #pragma comment(lib, "DarkGDK.lib")<br />
+ ^<br />
+In file included from ..\..\include\DarkGDK/DarkGDK.h:15:0,<br />
+                 from D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp:5:<br />
+..\..\include\DarkGDK/DarkGDK_struct.h: In constructor 'irr::DarkGDK_SGlobalStruct::DarkGDK_SGlobalStruct()':<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_struct.h:132:6: warning: 'irr::DarkGDK_SGlobalStruct::Time_Last' will be initialized after [-Wreorder]</font><br />
+  u32 Time_Last;<br />
+      ^<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_struct.h:117:20: warning:   'irr::core::position2di irr::DarkGDK_SGlobalStruct::CursorPos' [-Wreorder]</font><br />
+  core::position2di CursorPos;<br />
+                    ^<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_struct.h:161:2: warning:   when initialized here [-Wreorder]</font><br />
+  DarkGDK_SGlobalStruct() : Argc(0), Argv(0), NullDevice(0), Device(0), CurrentCamera(0), Font(0)<br />
+  ^<br />
+In file included from ..\..\include\DarkGDK/DarkGDK.h:15:0,<br />
+                 from D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp:5:<br />
+..\..\include\DarkGDK/DarkGDK_struct.h: In member function 'irr::gui::IGUIWindow* irr::DarkGDK_SGlobalStruct::createEscapeWindow()':<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_struct.h:248:13: warning: unused variable 'bw' [-Wunused-variable]</font><br />
+   const s32 bw =  48;<br />
+             ^<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_struct.h:252:13: warning: unused variable 'grid_cell_w' [-Wunused-variable]</font><br />
+   const s32 grid_cell_w = core::round32( (f32)w / (f32)grid_cols );<br />
+             ^<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_struct.h:255:7: warning: unused variable 'by' [-Wunused-variable]</font><br />
+   s32 by = core::round32( (f32)(grid_rows-1)*(f32)grid_cell_h );<br />
+       ^<br />
+In file included from ..\..\include\DarkGDK/DarkGDK_sys.h:8:0,<br />
+                 from ..\..\include\DarkGDK/DarkGDK.h:17,<br />
+                 from D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp:5:<br />
+..\..\include\DarkGDK/DarkGDK_obj.h: In function 'void irr::dbMakeObjectFromMesh(irr::u32, irr::scene::IMesh*, bool)':<br />
+<font color="#0000ff">..\..\include\DarkGDK/DarkGDK_obj.h:693:23: warning: unused variable 'driver' [-Wunused-variable]</font><br />
+  video::IVideoDriver* driver = app.Device-&gt;getVideoDriver();<br />
+                       ^<br />
+D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp: In function 'irr::s32 main(irr::s32, irr::c8**)':<br />
+<font color="#0000ff">D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp:65:6: warning: unused variable 'fCameraAngleX' [-Wunused-variable]</font><br />
+  f32 fCameraAngleX = 0.0f;<br />
+      ^<br />
+<font color="#0000ff">D:\github\DarkGDK\examples\FPS-Cube\FPS-Cube.cpp:66:6: warning: unused variable 'fCameraAngleY' [-Wunused-variable]</font><br />
+  f32 fCameraAngleY = 0.0f;<br />
+      ^<br />
+g++.exe -L..\..\lib\Linux -LD:\dev\SDK\mingw-32-tdm\lib -LD:\dev\SDK\mingw-32-tdm\lib\gcc\mingw32\4.8.1-dw2 -o ..\..\bin\Win32-gcc\FPS-Cube.exe obj\Win32_Release_shared\FPS-Cube.o   ..\..\lib\Win32-gcc\libDarkGDK.a -lglu32 -lopengl32 -lfreetype -lshell32 -luser32 -lgdi32 -lkernel32 -ladvapi32 -luuid -lwinmm<br />
+Output file is ..\..\bin\Win32-gcc\FPS-Cube.exe with size 7.70 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 5 second(s))</font><br />
+<font color="#0000ff">0 error(s), 10 warning(s) (0 minute(s), 5 second(s))</font><br />
+</tt>
+</body>
+</html>

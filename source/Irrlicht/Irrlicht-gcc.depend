@@ -1,0 +1,4666 @@
+# depslib dependency file v1.0
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/aescrypt.cpp
+	"aesopt.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/aesopt.h
+	"aes.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/aes.h
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
+	<tchar.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/aeskey.cpp
+	"aesopt.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/aestab.cpp
+	"aesopt.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/fileenc.cpp
+	<memory.h>
+	"fileenc.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/fileenc.h
+	"aes.h"
+	"hmac.h"
+	"pwd2key.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/hmac.h
+	<memory.h>
+	"sha1.h"
+	"sha2.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/sha1.h
+	<limits.h>
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/sha2.h
+	"irrMath.h"
+	<sys/int_types.h>
+	<stdint.h>
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/pwd2key.h
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/hmac.cpp
+	"hmac.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/prng.cpp
+	<memory.h>
+	"prng.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/prng.h
+	"sha1.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/pwd2key.cpp
+	<memory.h>
+	"hmac.h"
+	<stdio.h>
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/sha1.cpp
+	<string.h>
+	<stdlib.h>
+	"sha1.h"
+	"../os.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/os.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	"irrString.h"
+	"path.h"
+	"ILogger.h"
+	"ITimer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/path.h
+	"irrString.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ILogger.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IReferenceCounted.h
+	"irrTypes.h"
+	"leakHunter.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/leakHunter.h
+	"IrrCompileConfig.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/heapsort.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ITimer.h
+	"IReferenceCounted.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/aesGladman/sha2.cpp
+	<string.h>
+	<stdlib.h>
+	"sha2.h"
+	"../os.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/blocksort.c
+	"bzlib_private.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/bzlib_private.h
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"bzlib.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/bzlib.h
+	<stdio.h>
+	<windows.h>
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/bzcompress.c
+	"bzlib_private.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/bzlib.c
+	"bzlib_private.h"
+	<fcntl.h>
+	<io.h>
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/crctable.c
+	"bzlib_private.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/decompress.c
+	"bzlib_private.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/huffman.c
+	"bzlib_private.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/bzip2/randtable.c
+	"bzlib_private.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/C3DSMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"C3DSMeshFileLoader.h"
+	"os.h"
+	"SMeshBuffer.h"
+	"SAnimatedMesh.h"
+	"IReadFile.h"
+	"IVideoDriver.h"
+	"IMeshManipulator.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/C3DSMeshFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"ISceneManager.h"
+	"irrString.h"
+	"SMesh.h"
+	"matrix4.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/vector3d.h
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ETerrainElements.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ESceneNodeAnimatorTypes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SceneParameters.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/position2d.h
+	"vector2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EMaterialTypes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EMaterialFlags.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EHardwareBufferFlags.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ECullingTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EDebugSceneTypes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/Keycodes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EAttributes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SVertexIndex.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EPrimitiveTypes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrpack.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrunpack.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EDriverTypes.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EDriverFeatures.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SExposedVideoData.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshHalfLife.cpp
+	"IrrCompileConfig.h"
+	"CAnimatedMeshHalfLife.h"
+	"os.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"coreutil.h"
+	"SMeshBuffer.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshHalfLife.h
+	"IAnimatedMesh.h"
+	"ISceneManager.h"
+	"irrArray.h"
+	"irrString.h"
+	"IMeshLoader.h"
+	"SMesh.h"
+	"IReadFile.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CColorConverter.h
+	"irrTypes.h"
+	"IImage.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImage.h
+	"IImage.h"
+	"rect.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshMD2.cpp
+	"IrrCompileConfig.h"
+	"CAnimatedMeshMD2.h"
+	"SColor.h"
+	"irrMath.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshMD2.h
+	"IAnimatedMeshMD2.h"
+	"IMesh.h"
+	"CMeshBuffer.h"
+	"IReadFile.h"
+	"S3DVertex.h"
+	"irrArray.h"
+	"irrString.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshMD3.cpp
+	"IrrCompileConfig.h"
+	"CAnimatedMeshMD3.h"
+	"os.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshMD3.h
+	"IAnimatedMeshMD3.h"
+	"IReadFile.h"
+	"IFileSystem.h"
+	"irrArray.h"
+	"irrString.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"IQ3Shader.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshSceneNode.cpp
+	"CAnimatedMeshSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"S3DVertex.h"
+	"os.h"
+	"CShadowVolumeSceneNode.h"
+	"IAnimatedMeshMD3.h"
+	"CSkinnedMesh.h"
+	"IDummyTransformationSceneNode.h"
+	"IBoneSceneNode.h"
+	"IMaterialRenderer.h"
+	"IMesh.h"
+	"IMeshCache.h"
+	"IAnimatedMesh.h"
+	"quaternion.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAnimatedMeshSceneNode.h
+	"IAnimatedMeshSceneNode.h"
+	"IAnimatedMesh.h"
+	"matrix4.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CShadowVolumeSceneNode.h
+	"IShadowVolumeSceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSkinnedMesh.h
+	"ISkinnedMesh.h"
+	"SMeshBuffer.h"
+	"S3DVertex.h"
+	"irrString.h"
+	"matrix4.h"
+	"quaternion.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAttributes.cpp
+	"CAttributes.h"
+	"CAttributeImpl.h"
+	"ITexture.h"
+	"IXMLWriter.h"
+	"IVideoDriver.h"
+	"CXMLReader.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAttributes.h
+	"IrrCompileConfig.h"
+	"IAttributes.h"
+	"IAttribute.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/IAttribute.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"EAttributes.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CAttributeImpl.h
+	"CAttributes.h"
+	"fast_atof.h"
+	"ITexture.h"
+	"IVideoDriver.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMLReader.h
+	"IXMLReader.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CB3DMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CB3DMeshFileLoader.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"os.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CB3DMeshFileLoader.h
+	"IrrCompileConfig.h"
+	"IMeshLoader.h"
+	"ISceneManager.h"
+	"CSkinnedMesh.h"
+	"IReadFile.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBillboardSceneNode.cpp
+	"CBillboardSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"os.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBillboardSceneNode.h
+	"IBillboardSceneNode.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBoneSceneNode.cpp
+	"IrrCompileConfig.h"
+	"CBoneSceneNode.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBoneSceneNode.h
+	"IBoneSceneNode.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBSPMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CBSPMeshFileLoader.h"
+	"CQ3LevelMesh.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBSPMeshFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"IQ3Shader.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CQ3LevelMesh.h
+	"IQ3LevelMesh.h"
+	"IReadFile.h"
+	"IFileSystem.h"
+	"SMesh.h"
+	"SMeshBufferLightMap.h"
+	"IVideoDriver.h"
+	"irrString.h"
+	"ISceneManager.h"
+	"os.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBurningShader_Raster_Reference.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/IBurningShader.h
+	"SoftwareDriver2_compile_config.h"
+	"IReferenceCounted.h"
+	"irrMath.h"
+	"IImage.h"
+	"S2DVertex.h"
+	"rect.h"
+	"CDepthBuffer.h"
+	"S4DVertex.h"
+	"irrArray.h"
+	"SLight.h"
+	"SMaterial.h"
+	"os.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/SoftwareDriver2_compile_config.h
+	"IrrCompileConfig.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/S2DVertex.h
+	"vector2d.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDepthBuffer.h
+	"IDepthBuffer.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/IDepthBuffer.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"S4DVertex.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/S4DVertex.h
+	"SoftwareDriver2_compile_config.h"
+	"SoftwareDriver2_helper.h"
+	"irrAllocator.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/SoftwareDriver2_helper.h
+	"SoftwareDriver2_compile_config.h"
+	"irrMath.h"
+	"CSoftwareTexture2.h"
+	"SMaterial.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareTexture2.h
+	"SoftwareDriver2_compile_config.h"
+	"ITexture.h"
+	"CImage.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SLight.h
+	"SColor.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCameraSceneNode.cpp
+	"CCameraSceneNode.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+	"os.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCameraSceneNode.h
+	"ICameraSceneNode.h"
+	"SViewFrustum.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCgMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"CCgMaterialRenderer.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCgMaterialRenderer.h
+	"IrrCompileConfig.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IShaderConstantSetCallBack.h"
+	"IGPUProgrammingServices.h"
+	"irrArray.h"
+	"irrString.h"
+	"IVideoDriver.h"
+	"os.h"
+	"Cg/cg.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EShaderTypes.h
+	"irrTypes.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CColladaFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CColladaFileLoader.h"
+	"os.h"
+	"IXMLReader.h"
+	"IDummyTransformationSceneNode.h"
+	"SAnimatedMesh.h"
+	"fast_atof.h"
+	"quaternion.h"
+	"ILightSceneNode.h"
+	"ICameraSceneNode.h"
+	"IMeshManipulator.h"
+	"IReadFile.h"
+	"IAttributes.h"
+	"IMeshCache.h"
+	"IMeshSceneNode.h"
+	"SMeshBufferLightMap.h"
+	"irrMap.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CColladaFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"irrString.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"ISceneManager.h"
+	"irrMap.h"
+	"CAttributes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CColladaMeshWriter.cpp
+	"IrrCompileConfig.h"
+	"CColladaMeshWriter.h"
+	"os.h"
+	"IFileSystem.h"
+	"IWriteFile.h"
+	"IXMLWriter.h"
+	"IMesh.h"
+	"IAttributes.h"
+	"IAnimatedMeshSceneNode.h"
+	"IMeshSceneNode.h"
+	"ITerrainSceneNode.h"
+	"ILightSceneNode.h"
+	"ICameraSceneNode.h"
+	"ISceneManager.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CColladaMeshWriter.h
+	"IColladaMeshWriter.h"
+	"S3DVertex.h"
+	"irrMap.h"
+	"IVideoDriver.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IColladaMeshWriter.h
+	"IMeshWriter.h"
+	"ISceneNode.h"
+	"IAnimatedMesh.h"
+	"SMaterial.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CColorConverter.cpp
+	"CColorConverter.h"
+	"SColor.h"
+	"os.h"
+	"irrString.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCSMLoader.cpp
+	"IrrCompileConfig.h"
+	"CCSMLoader.h"
+	"os.h"
+	"IFileSystem.h"
+	"IReadFile.h"
+	"ISceneManager.h"
+	"IAttributes.h"
+	"SMesh.h"
+	"IVideoDriver.h"
+	"SAnimatedMesh.h"
+	"SMeshBufferLightMap.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCSMLoader.h
+	"irrArray.h"
+	"IMesh.h"
+	"irrString.h"
+	"IFileSystem.h"
+	"IMeshLoader.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCubeSceneNode.cpp
+	"CCubeSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"S3DVertex.h"
+	"SMeshBuffer.h"
+	"os.h"
+	"CShadowVolumeSceneNode.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CCubeSceneNode.h
+	"IMeshSceneNode.h"
+	"SMesh.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8Driver.cpp
+	"IrrCompileConfig.h"
+	"CD3D8Driver.h"
+	"os.h"
+	"S3DVertex.h"
+	"CD3D8Texture.h"
+	"CD3D8MaterialRenderer.h"
+	"CD3D8ShaderMaterialRenderer.h"
+	"CD3D8NormalMapRenderer.h"
+	"CD3D8ParallaxMapRenderer.h"
+	"SIrrCreationParameters.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8Driver.h
+	"IrrCompileConfig.h"
+	<windows.h>
+	"SIrrCreationParameters.h"
+	"CNullDriver.h"
+	"IMaterialRendererServices.h"
+	<d3d8.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+	"position2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EDeviceTypes.h
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CNullDriver.h
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"IImagePresenter.h"
+	"IGPUProgrammingServices.h"
+	"irrArray.h"
+	"irrString.h"
+	"irrMap.h"
+	"IAttributes.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshSceneNode.h"
+	"CFPSCounter.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"SLight.h"
+	"SExposedVideoData.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/IImagePresenter.h
+	"IImage.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CFPSCounter.h
+	"irrTypes.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8Texture.h
+	"IrrCompileConfig.h"
+	"ITexture.h"
+	"IImage.h"
+	<d3d8.h>
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8MaterialRenderer.h
+	"IrrCompileConfig.h"
+	<d3d8.h>
+	"IMaterialRenderer.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8ShaderMaterialRenderer.h
+	"IrrCompileConfig.h"
+	<d3d8.h>
+	<d3dx8core.h>
+	"IMaterialRenderer.h"
+	"S3DVertex.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8NormalMapRenderer.h
+	"IrrCompileConfig.h"
+	<d3d8.h>
+	"CD3D8ShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8ParallaxMapRenderer.h
+	"IrrCompileConfig.h"
+	<d3d8.h>
+	"CD3D8ShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8NormalMapRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D8NormalMapRenderer.h"
+	"IMaterialRendererServices.h"
+	"IVideoDriver.h"
+	"os.h"
+	"SLight.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8ParallaxMapRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D8ParallaxMapRenderer.h"
+	"IMaterialRendererServices.h"
+	"IVideoDriver.h"
+	"os.h"
+	"SLight.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8ShaderMaterialRenderer.cpp
+	"CD3D8ShaderMaterialRenderer.h"
+	"IrrCompileConfig.h"
+	<d3d8.h>
+	<d3dx8core.h>
+	"IShaderConstantSetCallBack.h"
+	"IMaterialRendererServices.h"
+	"IVideoDriver.h"
+	"os.h"
+	<stdio.h>
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D8Texture.cpp
+	"IrrCompileConfig.h"
+	"CD3D8Texture.h"
+	"CD3D8Driver.h"
+	"os.h"
+	<d3dx8tex.h>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9CgMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D9CgMaterialRenderer.h"
+	"CD3D9Driver.h"
+	"CD3D9Texture.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9CgMaterialRenderer.h
+	"IrrCompileConfig.h"
+	<windows.h>
+	<d3d9.h>
+	<d3dx9.h>
+	"CCgMaterialRenderer.h"
+	"Cg/cgD3D9.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9Driver.h
+	"IrrCompileConfig.h"
+	<windows.h>
+	"CNullDriver.h"
+	"SIrrCreationParameters.h"
+	"IMaterialRendererServices.h"
+	"irrMath.h"
+	<d3d9.h>
+	"Cg/cg.h"
+	"Cg/cgD3D9.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9Texture.h
+	"IrrCompileConfig.h"
+	"ITexture.h"
+	"IImage.h"
+	"irrMath.h"
+	<d3d9.h>
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9Driver.cpp
+	"CD3D9Driver.h"
+	"os.h"
+	"S3DVertex.h"
+	"CD3D9Texture.h"
+	"CD3D9MaterialRenderer.h"
+	"CD3D9ShaderMaterialRenderer.h"
+	"CD3D9NormalMapRenderer.h"
+	"CD3D9ParallaxMapRenderer.h"
+	"CD3D9HLSLMaterialRenderer.h"
+	"CD3D9CgMaterialRenderer.h"
+	"SIrrCreationParameters.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9MaterialRenderer.h
+	"IrrCompileConfig.h"
+	"irrMath.h"
+	<d3d9.h>
+	"IMaterialRenderer.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9ShaderMaterialRenderer.h
+	"IrrCompileConfig.h"
+	"irrMath.h"
+	<d3dx9shader.h>
+	"IMaterialRenderer.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9NormalMapRenderer.h
+	"IrrCompileConfig.h"
+	"irrMath.h"
+	<d3d9.h>
+	"CD3D9ShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9ParallaxMapRenderer.h
+	"IrrCompileConfig.h"
+	"irrMath.h"
+	<d3d9.h>
+	"CD3D9ShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9HLSLMaterialRenderer.h
+	"IrrCompileConfig.h"
+	"CD3D9ShaderMaterialRenderer.h"
+	"IGPUProgrammingServices.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9HLSLMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D9HLSLMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+	"IVideoDriver.h"
+	"os.h"
+	"irrString.h"
+	<stdio.h>
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9NormalMapRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D9NormalMapRenderer.h"
+	"IVideoDriver.h"
+	"IMaterialRendererServices.h"
+	"os.h"
+	"SLight.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9ParallaxMapRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D9ParallaxMapRenderer.h"
+	"IMaterialRendererServices.h"
+	"IVideoDriver.h"
+	"os.h"
+	"SLight.h"
+	"CReadFile.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CReadFile.h
+	<stdio.h>
+	"IReadFile.h"
+	"irrString.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9ShaderMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"CD3D9ShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+	"IMaterialRendererServices.h"
+	"IVideoDriver.h"
+	"os.h"
+	"irrString.h"
+	<stdio.h>
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CD3D9Texture.cpp
+	"IrrCompileConfig.h"
+	"CD3D9Texture.h"
+	"CD3D9Driver.h"
+	"os.h"
+	<d3dx9tex.h>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDefaultGUIElementFactory.cpp
+	"CDefaultGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIInOutFader.h"
+	"IGUIImage.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISpinBox.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDefaultGUIElementFactory.h
+	"IrrCompileConfig.h"
+	"IGUIElementFactory.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EGUIElementTypes.h
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EGUIAlignment.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/EMessageBoxFlags.h
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIButton.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUICheckBox.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIComboBox.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIImage.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUISpinBox.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIToolbar.h
+	"IGUIElement.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDefaultSceneNodeAnimatorFactory.cpp
+	"CDefaultSceneNodeAnimatorFactory.h"
+	"CSceneNodeAnimatorCameraFPS.h"
+	"CSceneNodeAnimatorCameraMaya.h"
+	"ICursorControl.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneManager.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDefaultSceneNodeAnimatorFactory.h
+	"ISceneNodeAnimatorFactory.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimatorCameraFPS.h"
+	"vector2d.h"
+	"position2d.h"
+	"SKeyMap.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SKeyMap.h
+	"Keycodes.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ICameraSceneNode.h"
+	"vector2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDefaultSceneNodeFactory.cpp
+	"CDefaultSceneNodeFactory.h"
+	"ISceneManager.h"
+	"ITextSceneNode.h"
+	"ITerrainSceneNode.h"
+	"IDummyTransformationSceneNode.h"
+	"ICameraSceneNode.h"
+	"IBillboardSceneNode.h"
+	"IAnimatedMeshSceneNode.h"
+	"IParticleSystemSceneNode.h"
+	"ILightSceneNode.h"
+	"IMeshSceneNode.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDefaultSceneNodeFactory.h
+	"ISceneNodeFactory.h"
+	"irrArray.h"
+	"irrString.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ITextSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDepthBuffer.cpp
+	"IrrCompileConfig.h"
+	"SoftwareDriver2_compile_config.h"
+	"CDepthBuffer.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDMFLoader.cpp
+	"IrrCompileConfig.h"
+	"os.h"
+	"CDMFLoader.h"
+	"ISceneManager.h"
+	"IAttributes.h"
+	"SAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+	"irrString.h"
+	"irrMath.h"
+	"dmfsupport.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDMFLoader.h
+	"IMeshLoader.h"
+	"IReadFile.h"
+	"IFileSystem.h"
+	"SMesh.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"SAnimatedMesh.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/dmfsupport.h
+	"irrString.h"
+	"fast_atof.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDummyTransformationSceneNode.cpp
+	"CDummyTransformationSceneNode.h"
+	"os.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CDummyTransformationSceneNode.h
+	"IDummyTransformationSceneNode.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CEmptySceneNode.cpp
+	"CEmptySceneNode.h"
+	"ISceneManager.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CEmptySceneNode.h
+	"ISceneNode.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CFileList.cpp
+	"CFileList.h"
+	"IrrCompileConfig.h"
+	"irrArray.h"
+	"coreutil.h"
+	"os.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CFileList.h
+	"IFileList.h"
+	"irrString.h"
+	"irrArray.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CFileSystem.cpp
+	"IrrCompileConfig.h"
+	"CFileSystem.h"
+	"IReadFile.h"
+	"IWriteFile.h"
+	"CZipReader.h"
+	"CMountPointReader.h"
+	"CPakReader.h"
+	"CNPKReader.h"
+	"CTarReader.h"
+	"CWADReader.h"
+	"CFileList.h"
+	"CXMLReader.h"
+	"CXMLWriter.h"
+	"stdio.h"
+	"os.h"
+	"CAttributes.h"
+	"CReadFile.h"
+	"CMemoryFile.h"
+	"CLimitReadFile.h"
+	"CWriteFile.h"
+	"irrList.h"
+	<direct.h>
+	<io.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<sys/types.h>
+	<dirent.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CFileSystem.h
+	"IFileSystem.h"
+	"irrArray.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CZipReader.h
+	"IrrCompileConfig.h"
+	"IReadFile.h"
+	"irrArray.h"
+	"irrString.h"
+	"IFileSystem.h"
+	"CFileList.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMountPointReader.h
+	"IrrCompileConfig.h"
+	"IFileSystem.h"
+	"CFileList.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CPakReader.h
+	"IrrCompileConfig.h"
+	"IReferenceCounted.h"
+	"IReadFile.h"
+	"irrArray.h"
+	"irrString.h"
+	"IFileSystem.h"
+	"CFileList.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CNPKReader.h
+	"IrrCompileConfig.h"
+	"IReferenceCounted.h"
+	"IReadFile.h"
+	"irrArray.h"
+	"irrString.h"
+	"IFileSystem.h"
+	"CFileList.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTarReader.h
+	"IrrCompileConfig.h"
+	"IReferenceCounted.h"
+	"IReadFile.h"
+	"irrArray.h"
+	"irrString.h"
+	"IFileSystem.h"
+	"CFileList.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CWADReader.h
+	"IrrCompileConfig.h"
+	"IReferenceCounted.h"
+	"IReadFile.h"
+	"irrArray.h"
+	"irrString.h"
+	"IFileSystem.h"
+	"CFileList.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMLWriter.h
+	"IXMLWriter.h"
+	<wchar.h>
+	"IWriteFile.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMemoryFile.h
+	"IReadFile.h"
+	"IWriteFile.h"
+	"irrString.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLimitReadFile.h
+	"IReadFile.h"
+	"irrString.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CWriteFile.h
+	<stdio.h>
+	"IWriteFile.h"
+	"irrString.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CFPSCounter.cpp
+	"CFPSCounter.h"
+	"irrMath.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGeometryCreator.cpp
+	"CGeometryCreator.h"
+	"SAnimatedMesh.h"
+	"SMeshBuffer.h"
+	"SMesh.h"
+	"IMesh.h"
+	"IVideoDriver.h"
+	"os.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGeometryCreator.h
+	"IGeometryCreator.h"
+	"SMeshBuffer.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIButton.cpp
+	"CGUIButton.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"os.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIButton.h
+	"IrrCompileConfig.h"
+	"IGUIButton.h"
+	"IGUISpriteBank.h"
+	"SColor.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUICheckBox.cpp
+	"CGUICheckBox.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"os.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUICheckBox.h
+	"IrrCompileConfig.h"
+	"IGUICheckBox.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIColorSelectDialog.cpp
+	"CGUIColorSelectDialog.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIButton.h"
+	"IGUIStaticText.h"
+	"IGUIFont.h"
+	"IGUISpriteBank.h"
+	"IFileList.h"
+	"os.h"
+	"fast_atof.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIColorSelectDialog.h
+	"IrrCompileConfig.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIButton.h"
+	"IGUISpinBox.h"
+	"IGUIImage.h"
+	"irrArray.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIComboBox.cpp
+	"CGUIComboBox.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IGUIFont.h"
+	"IGUIButton.h"
+	"CGUIListBox.h"
+	"os.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIComboBox.h
+	"IrrCompileConfig.h"
+	"IGUIComboBox.h"
+	"IGUIStaticText.h"
+	"irrString.h"
+	"irrArray.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIListBox.h
+	"IrrCompileConfig.h"
+	"IGUIListBox.h"
+	"irrArray.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIContextMenu.cpp
+	"CGUIContextMenu.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"IGUISpriteBank.h"
+	"os.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIContextMenu.h
+	"IrrCompileConfig.h"
+	"IGUIContextMenu.h"
+	"irrString.h"
+	"irrArray.h"
+	"IGUIFont.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIEditBox.cpp
+	"CGUIEditBox.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IGUIFont.h"
+	"IVideoDriver.h"
+	"rect.h"
+	"os.h"
+	"Keycodes.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIEditBox.h
+	"IrrCompileConfig.h"
+	"IGUIEditBox.h"
+	"irrArray.h"
+	"IOSOperator.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IOSOperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIEnvironment.cpp
+	"CGUIEnvironment.h"
+	"IVideoDriver.h"
+	"CGUISkin.h"
+	"CGUIButton.h"
+	"CGUIWindow.h"
+	"CGUIScrollBar.h"
+	"CGUIFont.h"
+	"CGUISpriteBank.h"
+	"CGUIImage.h"
+	"CGUIMeshViewer.h"
+	"CGUICheckBox.h"
+	"CGUIListBox.h"
+	"CGUITreeView.h"
+	"CGUIImageList.h"
+	"CGUIFileOpenDialog.h"
+	"CGUIColorSelectDialog.h"
+	"CGUIStaticText.h"
+	"CGUIEditBox.h"
+	"CGUISpinBox.h"
+	"CGUIInOutFader.h"
+	"CGUIMessageBox.h"
+	"CGUIModalScreen.h"
+	"CGUITabControl.h"
+	"CGUIContextMenu.h"
+	"CGUIComboBox.h"
+	"CGUIMenu.h"
+	"CGUIToolBar.h"
+	"CGUITable.h"
+	"CDefaultGUIElementFactory.h"
+	"IWriteFile.h"
+	"IXMLWriter.h"
+	"BuiltInFont.h"
+	"os.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIEnvironment.h
+	"IrrCompileConfig.h"
+	"IGUIEnvironment.h"
+	"IGUIElement.h"
+	"irrArray.h"
+	"IFileSystem.h"
+	"IOSOperator.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUISkin.h
+	"IrrCompileConfig.h"
+	"IGUISkin.h"
+	"irrString.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIWindow.h
+	"IrrCompileConfig.h"
+	"IGUIWindow.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIScrollBar.h
+	"IrrCompileConfig.h"
+	"IGUIScrollBar.h"
+	"IGUIButton.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIFont.h
+	"IrrCompileConfig.h"
+	"IGUIFontBitmap.h"
+	"irrString.h"
+	"irrMap.h"
+	"IXMLReader.h"
+	"IReadFile.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUISpriteBank.h
+	"IrrCompileConfig.h"
+	"IGUISpriteBank.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIImage.h
+	"IrrCompileConfig.h"
+	"IGUIImage.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIMeshViewer.h
+	"IrrCompileConfig.h"
+	"IGUIMeshViewer.h"
+	"SMaterial.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUITreeView.h
+	"IGUITreeView.h"
+	"irrList.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIImageList.h
+	"IGUIImageList.h"
+	"IVideoDriver.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIFileOpenDialog.h
+	"IrrCompileConfig.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIButton.h"
+	"IGUIListBox.h"
+	"IGUIEditBox.h"
+	"IFileSystem.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIStaticText.h
+	"IrrCompileConfig.h"
+	"IGUIStaticText.h"
+	"irrArray.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUISpinBox.h
+	"IrrCompileConfig.h"
+	"IGUISpinBox.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIInOutFader.h
+	"IrrCompileConfig.h"
+	"IGUIInOutFader.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIMessageBox.h
+	"IrrCompileConfig.h"
+	"CGUIWindow.h"
+	"IGUIStaticText.h"
+	"IGUIImage.h"
+	"irrArray.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIModalScreen.h
+	"IrrCompileConfig.h"
+	"IGUIElement.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUITabControl.h
+	"IrrCompileConfig.h"
+	"IGUITabControl.h"
+	"irrArray.h"
+	"IGUISkin.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIMenu.h
+	"IrrCompileConfig.h"
+	"CGUIContextMenu.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIToolBar.h
+	"IrrCompileConfig.h"
+	"IGUIToolbar.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUITable.h
+	"IrrCompileConfig.h"
+	"IGUITable.h"
+	"irrArray.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/BuiltInFont.h
+	"IrrCompileConfig.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIFileOpenDialog.cpp
+	"CGUIFileOpenDialog.h"
+	<locale.h>
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIButton.h"
+	"IGUIStaticText.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IFileList.h"
+	"os.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIFont.cpp
+	"CGUIFont.h"
+	"os.h"
+	"IGUIEnvironment.h"
+	"IXMLReader.h"
+	"IReadFile.h"
+	"IVideoDriver.h"
+	"IGUISpriteBank.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIImage.cpp
+	"CGUIImage.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIImageList.cpp
+	"CGUIImageList.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIInOutFader.cpp
+	"CGUIInOutFader.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"os.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIListBox.cpp
+	"CGUIListBox.h"
+	"CGUIListBox.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"IGUISpriteBank.h"
+	"CGUIScrollBar.h"
+	"os.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIMenu.cpp
+	"CGUIMenu.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"IGUIWindow.h"
+	"os.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIMeshViewer.cpp
+	"CGUIMeshViewer.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"os.h"
+	"IGUISkin.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIMessageBox.cpp
+	"CGUIMessageBox.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IGUIButton.h"
+	"IGUIFont.h"
+	"ITexture.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIModalScreen.cpp
+	"CGUIModalScreen.h"
+	"IGUIEnvironment.h"
+	"os.h"
+	"IVideoDriver.h"
+	"IGUISkin.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIScrollBar.cpp
+	"CGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"CGUIButton.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUISkin.cpp
+	"CGUISkin.h"
+	"IGUIFont.h"
+	"IGUISpriteBank.h"
+	"IGUIElement.h"
+	"IVideoDriver.h"
+	"IAttributes.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUISpinBox.cpp
+	"CGUISpinBox.h"
+	"CGUIEditBox.h"
+	"CGUIButton.h"
+	"IGUIEnvironment.h"
+	"IEventReceiver.h"
+	"fast_atof.h"
+	<wchar.h>
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUISpriteBank.cpp
+	"CGUISpriteBank.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"ITexture.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIStaticText.cpp
+	"CGUIStaticText.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IGUIFont.h"
+	"IVideoDriver.h"
+	"rect.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUITabControl.cpp
+	"CGUITabControl.h"
+	"CGUIButton.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IGUIFont.h"
+	"IVideoDriver.h"
+	"rect.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUITable.cpp
+	"CGUITable.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"CGUIScrollBar.h"
+	"os.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIToolBar.cpp
+	"CGUIToolBar.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIButton.h"
+	"IGUIFont.h"
+	"CGUIButton.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUITreeView.cpp
+	"CGUITreeView.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIFont.h"
+	"CGUIScrollBar.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CGUIWindow.cpp
+	"CGUIWindow.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	"IVideoDriver.h"
+	"IGUIButton.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImage.cpp
+	"CImage.h"
+	"irrString.h"
+	"CColorConverter.h"
+	"CBlit.h"
+	"os.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CBlit.h
+	"SoftwareDriver2_helper.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderBMP.cpp
+	"CImageLoaderBMP.h"
+	"IReadFile.h"
+	"SColor.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"os.h"
+	"irrString.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderBMP.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderDDS.cpp
+	"CImageLoaderDDS.h"
+	"IReadFile.h"
+	"os.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"irrString.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderDDS.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderJPG.cpp
+	"CImageLoaderJPG.h"
+	"IReadFile.h"
+	"CImage.h"
+	"os.h"
+	"irrString.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderJPG.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	<stdio.h>
+	<jpeglib.h>
+	"jpeglib/jpeglib.h"
+	<setjmp.h>
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jconfig.h
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jmorecfg.h
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jpegint.h
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jerror.h
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPCX.cpp
+	"CImageLoaderPCX.h"
+	"IReadFile.h"
+	"SColor.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"os.h"
+	"irrString.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPCX.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPNG.cpp
+	"CImageLoaderPNG.h"
+	<png.h>
+	"libpng/png.h"
+	"CImage.h"
+	"CReadFile.h"
+	"os.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPNG.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+
+1390013960 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/png.h
+	"pnglibconf.h"
+	"pngconf.h"
+
+1390013960 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pnglibconf.h
+
+1390013960 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngconf.h
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPPM.cpp
+	"CImageLoaderPPM.h"
+	"IReadFile.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"os.h"
+	"fast_atof.h"
+	"coreutil.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPPM.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrString.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPSD.cpp
+	"CImageLoaderPSD.h"
+	"IReadFile.h"
+	"os.h"
+	"CImage.h"
+	"irrString.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderPSD.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderRGB.cpp
+	"CImageLoaderRGB.h"
+	"IReadFile.h"
+	"SColor.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"os.h"
+	"irrString.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderRGB.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderTGA.cpp
+	"CImageLoaderTGA.h"
+	"IReadFile.h"
+	"os.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"irrString.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderTGA.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderWAL.cpp
+	"CImageLoaderWAL.h"
+	"CColorConverter.h"
+	"CImage.h"
+	"os.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"IReadFile.h"
+	"irrString.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageLoaderWAL.h
+	"IrrCompileConfig.h"
+	"IImageLoader.h"
+	"irrpack.h"
+	"irrunpack.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterBMP.cpp
+	"CImageWriterBMP.h"
+	"CImageLoaderBMP.h"
+	"IWriteFile.h"
+	"CColorConverter.h"
+	"irrString.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterBMP.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterJPG.cpp
+	"CImageWriterJPG.h"
+	"CColorConverter.h"
+	"IWriteFile.h"
+	"CImage.h"
+	"irrString.h"
+	<stdio.h>
+	<jpeglib.h>
+	<jerror.h>
+	"jpeglib/jpeglib.h"
+	"jpeglib/jerror.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterJPG.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPCX.cpp
+	"CImageWriterPCX.h"
+	"CImageLoaderPCX.h"
+	"IWriteFile.h"
+	"os.h"
+	"irrString.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPCX.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPNG.cpp
+	"CImageWriterPNG.h"
+	"CImageLoaderPNG.h"
+	"CColorConverter.h"
+	"IWriteFile.h"
+	"irrString.h"
+	"os.h"
+	<png.h>
+	"libpng/png.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPNG.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPPM.cpp
+	"CImageWriterPPM.h"
+	"IWriteFile.h"
+	"IImage.h"
+	"dimension2d.h"
+	"irrString.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPPM.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPSD.cpp
+	"CImageWriterPSD.h"
+	"CImageLoaderPSD.h"
+	"IWriteFile.h"
+	"os.h"
+	"irrString.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterPSD.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterTGA.cpp
+	"CImageWriterTGA.h"
+	"CImageLoaderTGA.h"
+	"IWriteFile.h"
+	"CColorConverter.h"
+	"irrString.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CImageWriterTGA.h
+	"IrrCompileConfig.h"
+	"IImageWriter.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceConsole.cpp
+	"CIrrDeviceConsole.h"
+	"os.h"
+	"IGUISkin.h"
+	"IGUIEnvironment.h"
+	<signal.h>
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceConsole.h
+	"IrrCompileConfig.h"
+	"SIrrCreationParameters.h"
+	"CIrrDeviceStub.h"
+	"IImagePresenter.h"
+	"IGUIFont.h"
+	<windows.h>
+	<time.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceStub.h
+	"IrrlichtDevice.h"
+	"IImagePresenter.h"
+	"SIrrCreationParameters.h"
+	"CVideoModeList.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CVideoModeList.h
+	"IVideoModeList.h"
+	"dimension2d.h"
+	"irrArray.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceLinux.cpp
+	"CIrrDeviceLinux.h"
+	<stdio.h>
+	<stdlib.h>
+	<sys/utsname.h>
+	<time.h>
+	"IEventReceiver.h"
+	"ISceneManager.h"
+	"IGUIEnvironment.h"
+	"os.h"
+	"CTimer.h"
+	"irrString.h"
+	"Keycodes.h"
+	"COSOperator.h"
+	"CColorConverter.h"
+	"SIrrCreationParameters.h"
+	"IGUISpriteBank.h"
+	<X11/XKBlib.h>
+	<X11/Xatom.h>
+	<X11/Xcursor/Xcursor.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/joystick.h>
+	<sys/ioctl.h>
+	<linux/joystick.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceLinux.h
+	"IrrCompileConfig.h"
+	"CIrrDeviceStub.h"
+	"IrrlichtDevice.h"
+	"IImagePresenter.h"
+	"ICursorControl.h"
+	"os.h"
+	<GL/gl.h>
+	<GL/glx.h>
+	"glxext.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/cursorfont.h>
+	<X11/extensions/xf86vmode.h>
+	<X11/extensions/Xrandr.h>
+	<X11/keysym.h>
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/glxext.h
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTimer.h
+	"ITimer.h"
+	"os.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COSOperator.h
+	"IOSOperator.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceSDL.cpp
+	"IrrCompileConfig.h"
+	"CIrrDeviceSDL.h"
+	"IEventReceiver.h"
+	"irrList.h"
+	"os.h"
+	"CTimer.h"
+	"irrString.h"
+	"Keycodes.h"
+	"COSOperator.h"
+	<stdio.h>
+	<stdlib.h>
+	"SIrrCreationParameters.h"
+	<SDL/SDL_syswm.h>
+	<SDL/SDL_video.h>
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceSDL.h
+	"IrrCompileConfig.h"
+	"IrrlichtDevice.h"
+	"CIrrDeviceStub.h"
+	"IImagePresenter.h"
+	"ICursorControl.h"
+	<SDL/SDL.h>
+	<SDL/SDL_syswm.h>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceStub.cpp
+	"CIrrDeviceStub.h"
+	"ISceneManager.h"
+	"IEventReceiver.h"
+	"IFileSystem.h"
+	"IGUIEnvironment.h"
+	"os.h"
+	"IrrCompileConfig.h"
+	"CTimer.h"
+	"CLogger.h"
+	"irrString.h"
+	"IRandomizer.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLogger.h
+	"ILogger.h"
+	"os.h"
+	"irrString.h"
+	"IEventReceiver.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IRandomizer.h
+	"IReferenceCounted.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceWin32.cpp
+	"IrrCompileConfig.h"
+	"CIrrDeviceWin32.h"
+	"IEventReceiver.h"
+	"irrList.h"
+	"os.h"
+	"CTimer.h"
+	"irrString.h"
+	"COSOperator.h"
+	"dimension2d.h"
+	"IGUISpriteBank.h"
+	<winuser.h>
+	<dinput.h>
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceWin32.h
+	"IrrCompileConfig.h"
+	"CIrrDeviceStub.h"
+	"IrrlichtDevice.h"
+	"IImagePresenter.h"
+	<windows.h>
+	<mmsystem.h>
+	<windowsx.h>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceWinCE.cpp
+	"IrrCompileConfig.h"
+	"CIrrDeviceWinCE.h"
+	"IEventReceiver.h"
+	"irrList.h"
+	"os.h"
+	"CTimer.h"
+	"irrString.h"
+	"COSOperator.h"
+	"dimension2d.h"
+	<winuser.h>
+	"irrlicht.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceWinCE.h
+	"IrrCompileConfig.h"
+	"CIrrDeviceStub.h"
+	"IrrlichtDevice.h"
+	"IImagePresenter.h"
+	<windows.h>
+	<windowsx.h>
+	<commctrl.h>
+	<aygshell.h>
+	<sipapi.h>
+	<gx.h>
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IColladaMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IRandomizer.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneLoader.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1390013986 /media/Erde/dev_github/irrlicht-code/include/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CIrrMeshFileLoader.h"
+	"os.h"
+	"IXMLReader.h"
+	"SAnimatedMesh.h"
+	"fast_atof.h"
+	"IReadFile.h"
+	"IAttributes.h"
+	"IMeshSceneNode.h"
+	"CDynamicMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrMeshFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"irrString.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"CDynamicMeshBuffer.h"
+	"ISceneManager.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrMeshWriter.cpp
+	"IrrCompileConfig.h"
+	"CIrrMeshWriter.h"
+	"os.h"
+	"IWriteFile.h"
+	"IXMLWriter.h"
+	"IMesh.h"
+	"IAttributes.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrMeshWriter.h
+	"IMeshWriter.h"
+	"S3DVertex.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLightSceneNode.cpp
+	"CLightSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"os.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLightSceneNode.h
+	"ILightSceneNode.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLimitReadFile.cpp
+	"CLimitReadFile.h"
+	"irrString.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLMTSMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"SMeshBufferLightMap.h"
+	"SAnimatedMesh.h"
+	"SMeshBuffer.h"
+	"irrString.h"
+	"IReadFile.h"
+	"IAttributes.h"
+	"ISceneManager.h"
+	"CLMTSMeshFileLoader.h"
+	"os.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLMTSMeshFileLoader.h
+	"IMeshLoader.h"
+	"SMesh.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLogger.cpp
+	"CLogger.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLWOMeshFileLoader.cpp
+	"CLWOMeshFileLoader.h"
+	"os.h"
+	"SAnimatedMesh.h"
+	"SMesh.h"
+	"IReadFile.h"
+	"ISceneManager.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"IMeshManipulator.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CLWOMeshFileLoader.h
+	"IMeshLoader.h"
+	"SMeshBuffer.h"
+	"irrString.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMD2MeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CMD2MeshFileLoader.h"
+	"CAnimatedMeshMD2.h"
+	"os.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMD2MeshFileLoader.h
+	"IMeshLoader.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMD3MeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CMD3MeshFileLoader.h"
+	"CAnimatedMeshMD3.h"
+	"irrString.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMD3MeshFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"IQ3Shader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMemoryFile.cpp
+	"CMemoryFile.h"
+	"irrString.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMeshCache.cpp
+	"CMeshCache.h"
+	"IAnimatedMesh.h"
+	"IMesh.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMeshCache.h
+	"IMeshCache.h"
+	"irrArray.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMeshManipulator.cpp
+	"CMeshManipulator.h"
+	"SMesh.h"
+	"CMeshBuffer.h"
+	"SAnimatedMesh.h"
+	"os.h"
+	"irrMap.h"
+	"triangle3d.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMeshManipulator.h
+	"IMeshManipulator.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMeshSceneNode.cpp
+	"CMeshSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"S3DVertex.h"
+	"ICameraSceneNode.h"
+	"IMeshCache.h"
+	"IAnimatedMesh.h"
+	"IMaterialRenderer.h"
+	"IFileSystem.h"
+	"CShadowVolumeSceneNode.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMeshSceneNode.h
+	"IMeshSceneNode.h"
+	"IMesh.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMetaTriangleSelector.cpp
+	"CMetaTriangleSelector.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMetaTriangleSelector.h
+	"IMetaTriangleSelector.h"
+	"irrArray.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMountPointReader.cpp
+	"CMountPointReader.h"
+	"CReadFile.h"
+	"os.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMS3DMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"IReadFile.h"
+	"os.h"
+	"CMS3DMeshFileLoader.h"
+	"CSkinnedMesh.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMS3DMeshFileLoader.h
+	"IMeshLoader.h"
+	"IVideoDriver.h"
+	"CSkinnedMesh.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMY3DMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CMY3DMeshFileLoader.h"
+	"SAnimatedMesh.h"
+	"SMeshBuffer.h"
+	"IReadFile.h"
+	"IAttributes.h"
+	"CMY3DHelper.h"
+	"os.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMY3DMeshFileLoader.h
+	"IMeshLoader.h"
+	"SMesh.h"
+	"SMeshBufferLightMap.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"irrString.h"
+	"ISceneManager.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CMY3DHelper.h
+	<irrTypes.h>
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CNPKReader.cpp
+	"CNPKReader.h"
+	"os.h"
+	"coreutil.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CNullDriver.cpp
+	"CNullDriver.h"
+	"os.h"
+	"CImage.h"
+	"CAttributes.h"
+	"IReadFile.h"
+	"IWriteFile.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IMaterialRenderer.h"
+	"IAnimatedMeshSceneNode.h"
+	"CMeshManipulator.h"
+	"CColorConverter.h"
+	"IAttributeExchangingObject.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COBJMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"COBJMeshFileLoader.h"
+	"IMeshManipulator.h"
+	"IVideoDriver.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SAnimatedMesh.h"
+	"IReadFile.h"
+	"IAttributes.h"
+	"fast_atof.h"
+	"coreutil.h"
+	"os.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COBJMeshFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"ISceneManager.h"
+	"irrString.h"
+	"SMeshBuffer.h"
+	"irrMap.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COBJMeshWriter.cpp
+	"IrrCompileConfig.h"
+	"COBJMeshWriter.h"
+	"os.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IAttributes.h"
+	"ISceneManager.h"
+	"IMeshCache.h"
+	"IWriteFile.h"
+	"IFileSystem.h"
+	"ITexture.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COBJMeshWriter.h
+	"IMeshWriter.h"
+	"S3DVertex.h"
+	"irrString.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COCTLoader.cpp
+	"IrrCompileConfig.h"
+	"COCTLoader.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"os.h"
+	"SAnimatedMesh.h"
+	"SMeshBufferLightMap.h"
+	"irrString.h"
+	"ISceneManager.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COCTLoader.h
+	"IMeshLoader.h"
+	"IReadFile.h"
+	"SMesh.h"
+	"irrString.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COctreeSceneNode.cpp
+	"COctreeSceneNode.h"
+	"Octree.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+	"ICameraSceneNode.h"
+	"IMeshCache.h"
+	"IAnimatedMesh.h"
+	"IMaterialRenderer.h"
+	"os.h"
+	"CShadowVolumeSceneNode.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COctreeSceneNode.h
+	"IMeshSceneNode.h"
+	"Octree.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/Octree.h
+	"SViewFrustum.h"
+	"S3DVertex.h"
+	"aabbox3d.h"
+	"irrArray.h"
+	"CMeshBuffer.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COctreeTriangleSelector.cpp
+	"COctreeTriangleSelector.h"
+	"ISceneNode.h"
+	"os.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COctreeTriangleSelector.h
+	"CTriangleSelector.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTriangleSelector.h
+	"ITriangleSelector.h"
+	"IMesh.h"
+	"irrArray.h"
+	"aabbox3d.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COgreMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"COgreMeshFileLoader.h"
+	"os.h"
+	"SMeshBuffer.h"
+	"SAnimatedMesh.h"
+	"IReadFile.h"
+	"fast_atof.h"
+	"coreutil.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COgreMeshFileLoader.h
+	"IMeshLoader.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"irrString.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"IMeshManipulator.h"
+	"matrix4.h"
+	"quaternion.h"
+	"CSkinnedMesh.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLCgMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"COpenGLCgMaterialRenderer.h"
+	"COpenGLDriver.h"
+	"COpenGLTexture.h"
+	"COpenGLMaterialRenderer.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLCgMaterialRenderer.h
+	"IrrCompileConfig.h"
+	<windows.h>
+	<GL/gl.h>
+	"glext.h"
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	"glext.h"
+	"CCgMaterialRenderer.h"
+	"Cg/cgGL.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLDriver.h
+	"IrrCompileConfig.h"
+	"SIrrCreationParameters.h"
+	"CNullDriver.h"
+	"IMaterialRendererServices.h"
+	"COpenGLExtensionHandler.h"
+	"Cg/cg.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLExtensionHandler.h
+	"IrrCompileConfig.h"
+	"EDriverFeatures.h"
+	"irrTypes.h"
+	"os.h"
+	<windows.h>
+	<GL/gl.h>
+	"glext.h"
+	"wglext.h"
+	<OpenGL/gl.h>
+	"glext.h"
+	<SDL/SDL_video.h>
+	<SDL/SDL_opengl.h>
+	"glext.h"
+	<GL/gl.h>
+	<GL/glx.h>
+	"glext.h"
+	"glxext.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/wglext.h
+	<windows.h>
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLTexture.h
+	"ITexture.h"
+	"IImage.h"
+	"SMaterialLayer.h"
+	"IrrCompileConfig.h"
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_opengl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLMaterialRenderer.h
+	"IrrCompileConfig.h"
+	"COpenGLDriver.h"
+	"IMaterialRenderer.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLDriver.cpp
+	"COpenGLDriver.h"
+	"CNullDriver.h"
+	"COpenGLTexture.h"
+	"COpenGLMaterialRenderer.h"
+	"COpenGLShaderMaterialRenderer.h"
+	"COpenGLSLMaterialRenderer.h"
+	"COpenGLCgMaterialRenderer.h"
+	"COpenGLNormalMapRenderer.h"
+	"COpenGLParallaxMapRenderer.h"
+	"os.h"
+	"MacOSX/CIrrDeviceMacOSX.h"
+	<SDL/SDL.h>
+	"MacOSX/CIrrDeviceMacOSX.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLShaderMaterialRenderer.h
+	"IrrCompileConfig.h"
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<SDL/SDL_video.h>
+	<SDL/SDL_opengl.h>
+	<GL/gl.h>
+	"IMaterialRenderer.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLSLMaterialRenderer.h
+	"IrrCompileConfig.h"
+	<windows.h>
+	<GL/gl.h>
+	"glext.h"
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	"glext.h"
+	"EMaterialTypes.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IGPUProgrammingServices.h"
+	"irrArray.h"
+	"irrString.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLNormalMapRenderer.h
+	"IrrCompileConfig.h"
+	"COpenGLShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLParallaxMapRenderer.h
+	"IrrCompileConfig.h"
+	"COpenGLShaderMaterialRenderer.h"
+	"IShaderConstantSetCallBack.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/MacOSX/CIrrDeviceMacOSX.h
+	"IrrCompileConfig.h"
+	"CIrrDeviceStub.h"
+	"IrrlichtDevice.h"
+	"IImagePresenter.h"
+	"IGUIEnvironment.h"
+	"ICursorControl.h"
+	<OpenGL/OpenGL.h>
+	<map>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLExtensionHandler.cpp
+	"IrrCompileConfig.h"
+	"COpenGLExtensionHandler.h"
+	"irrString.h"
+	"SMaterial.h"
+	"fast_atof.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLNormalMapRenderer.cpp
+	"IrrCompileConfig.h"
+	"COpenGLNormalMapRenderer.h"
+	"IGPUProgrammingServices.h"
+	"IShaderConstantSetCallBack.h"
+	"IVideoDriver.h"
+	"os.h"
+	"COpenGLDriver.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLParallaxMapRenderer.cpp
+	"IrrCompileConfig.h"
+	"COpenGLParallaxMapRenderer.h"
+	"COpenGLDriver.h"
+	"IGPUProgrammingServices.h"
+	"IShaderConstantSetCallBack.h"
+	"IVideoDriver.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLShaderMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"COpenGLShaderMaterialRenderer.h"
+	"IGPUProgrammingServices.h"
+	"IShaderConstantSetCallBack.h"
+	"IVideoDriver.h"
+	"os.h"
+	"COpenGLDriver.h"
+	"COpenGLMaterialRenderer.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLSLMaterialRenderer.cpp
+	"IrrCompileConfig.h"
+	"COpenGLSLMaterialRenderer.h"
+	"IGPUProgrammingServices.h"
+	"IShaderConstantSetCallBack.h"
+	"IMaterialRendererServices.h"
+	"IVideoDriver.h"
+	"os.h"
+	"COpenGLDriver.h"
+	"COpenGLMaterialRenderer.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COpenGLTexture.cpp
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	"COpenGLTexture.h"
+	"COpenGLDriver.h"
+	"os.h"
+	"CColorConverter.h"
+	"irrString.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/COSOperator.cpp
+	"COSOperator.h"
+	<windows.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/sysctl.h>
+	"CIrrDeviceLinux.h"
+	"MacOSX/OSXClipboard.h"
+	"fast_atof.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/MacOSX/OSXClipboard.h
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CPakReader.cpp
+	"CPakReader.h"
+	"os.h"
+	"coreutil.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleAnimatedMeshSceneNodeEmitter.cpp
+	"CParticleAnimatedMeshSceneNodeEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+	"IMesh.h"
+	"os.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"irrArray.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleAttractionAffector.cpp
+	"CParticleAttractionAffector.h"
+	"IAttributes.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleAttractionAffector.h
+	"IParticleAttractionAffector.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleBoxEmitter.cpp
+	"CParticleBoxEmitter.h"
+	"os.h"
+	"IAttributes.h"
+	"irrMath.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleBoxEmitter.h
+	"IParticleBoxEmitter.h"
+	"irrArray.h"
+	"aabbox3d.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleCylinderEmitter.cpp
+	"CParticleCylinderEmitter.h"
+	"os.h"
+	"IAttributes.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleCylinderEmitter.h
+	"IParticleCylinderEmitter.h"
+	"irrArray.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleFadeOutAffector.cpp
+	"CParticleFadeOutAffector.h"
+	"IAttributes.h"
+	"os.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleFadeOutAffector.h
+	"IParticleFadeOutAffector.h"
+	"SColor.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleGravityAffector.cpp
+	"CParticleGravityAffector.h"
+	"os.h"
+	"IAttributes.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleGravityAffector.h
+	"IParticleGravityAffector.h"
+	"SColor.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleMeshEmitter.cpp
+	"IrrCompileConfig.h"
+	"CParticleMeshEmitter.h"
+	"os.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleMeshEmitter.h
+	"IParticleMeshEmitter.h"
+	"irrArray.h"
+	"aabbox3d.h"
+	"IMeshBuffer.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticlePointEmitter.cpp
+	"CParticlePointEmitter.h"
+	"os.h"
+	"IAttributes.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticlePointEmitter.h
+	"IParticleEmitter.h"
+	"irrArray.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleRingEmitter.cpp
+	"CParticleRingEmitter.h"
+	"os.h"
+	"IAttributes.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleRingEmitter.h
+	"IParticleRingEmitter.h"
+	"irrArray.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleRotationAffector.cpp
+	"CParticleRotationAffector.h"
+	"IAttributes.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleRotationAffector.h
+	"IParticleRotationAffector.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleScaleAffector.cpp
+	"CParticleScaleAffector.h"
+	"IAttributes.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleScaleAffector.h
+	<IParticleAffector.h>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleSphereEmitter.cpp
+	"IrrCompileConfig.h"
+	"CParticleSphereEmitter.h"
+	"os.h"
+	"IAttributes.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleSphereEmitter.h
+	"IParticleSphereEmitter.h"
+	"irrArray.h"
+	"aabbox3d.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleSystemSceneNode.cpp
+	"CParticleSystemSceneNode.h"
+	"os.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"IVideoDriver.h"
+	"CParticleAnimatedMeshSceneNodeEmitter.h"
+	"CParticleBoxEmitter.h"
+	"CParticleCylinderEmitter.h"
+	"CParticleMeshEmitter.h"
+	"CParticlePointEmitter.h"
+	"CParticleRingEmitter.h"
+	"CParticleSphereEmitter.h"
+	"CParticleAttractionAffector.h"
+	"CParticleFadeOutAffector.h"
+	"CParticleGravityAffector.h"
+	"CParticleRotationAffector.h"
+	"CParticleScaleAffector.h"
+	"SViewFrustum.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CParticleSystemSceneNode.h
+	"IParticleSystemSceneNode.h"
+	"irrArray.h"
+	"irrList.h"
+	"SMeshBuffer.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CPLYMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CPLYMeshFileLoader.h"
+	"IMeshManipulator.h"
+	"SMesh.h"
+	"CDynamicMeshBuffer.h"
+	"SAnimatedMesh.h"
+	"IReadFile.h"
+	"fast_atof.h"
+	"os.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CPLYMeshFileLoader.h
+	"IMeshLoader.h"
+	"ISceneManager.h"
+	"CDynamicMeshBuffer.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CPLYMeshWriter.cpp
+	"IrrCompileConfig.h"
+	"CPLYMeshWriter.h"
+	"os.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IWriteFile.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CPLYMeshWriter.h
+	"IMeshWriter.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CQ3LevelMesh.cpp
+	"IrrCompileConfig.h"
+	"CQ3LevelMesh.h"
+	"ISceneManager.h"
+	"os.h"
+	"SMeshBufferLightMap.h"
+	"irrString.h"
+	"ILightSceneNode.h"
+	"IQ3Shader.h"
+	"IFileList.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CQuake3ShaderSceneNode.cpp
+	"IrrCompileConfig.h"
+	"CQuake3ShaderSceneNode.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+	"ICameraSceneNode.h"
+	"SViewFrustum.h"
+	"IMeshManipulator.h"
+	"SMesh.h"
+	"IMaterialRenderer.h"
+	"CShadowVolumeSceneNode.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CQuake3ShaderSceneNode.h
+	"IMeshSceneNode.h"
+	"IQ3Shader.h"
+	"IFileSystem.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMesh.h"
+	"ISceneManager.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CReadFile.cpp
+	"CReadFile.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneCollisionManager.cpp
+	"CSceneCollisionManager.h"
+	"ISceneNode.h"
+	"ICameraSceneNode.h"
+	"ITriangleSelector.h"
+	"SViewFrustum.h"
+	"os.h"
+	"irrMath.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneCollisionManager.h
+	"ISceneCollisionManager.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneLoaderIrr.cpp
+	"CSceneLoaderIrr.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneUserDataSerializer.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"os.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneLoaderIrr.h
+	"ISceneLoader.h"
+	"IXMLReader.h"
+
+1390013958 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneManager.cpp
+	"IrrCompileConfig.h"
+	"CSceneManager.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"SAnimatedMesh.h"
+	"CMeshCache.h"
+	"IXMLWriter.h"
+	"ISceneUserDataSerializer.h"
+	"IGUIEnvironment.h"
+	"IMaterialRenderer.h"
+	"IReadFile.h"
+	"IWriteFile.h"
+	"ISceneLoader.h"
+	"os.h"
+	"CSkinnedMesh.h"
+	"CIrrMeshFileLoader.h"
+	"CBSPMeshFileLoader.h"
+	"CMD2MeshFileLoader.h"
+	"CAnimatedMeshHalfLife.h"
+	"CMS3DMeshFileLoader.h"
+	"C3DSMeshFileLoader.h"
+	"CXMeshFileLoader.h"
+	"COCTLoader.h"
+	"CCSMLoader.h"
+	"CLMTSMeshFileLoader.h"
+	"CMY3DMeshFileLoader.h"
+	"CColladaFileLoader.h"
+	"CDMFLoader.h"
+	"COgreMeshFileLoader.h"
+	"COBJMeshFileLoader.h"
+	"CMD3MeshFileLoader.h"
+	"CB3DMeshFileLoader.h"
+	"CLWOMeshFileLoader.h"
+	"CSTLMeshFileLoader.h"
+	"CPLYMeshFileLoader.h"
+	"CSMFMeshFileLoader.h"
+	"CSceneLoaderIrr.h"
+	"CColladaMeshWriter.h"
+	"CIrrMeshWriter.h"
+	"CSTLMeshWriter.h"
+	"COBJMeshWriter.h"
+	"CPLYMeshWriter.h"
+	"CCubeSceneNode.h"
+	"CSphereSceneNode.h"
+	"CAnimatedMeshSceneNode.h"
+	"COctreeSceneNode.h"
+	"CCameraSceneNode.h"
+	"CLightSceneNode.h"
+	"CBillboardSceneNode.h"
+	"CMeshSceneNode.h"
+	"CSkyBoxSceneNode.h"
+	"CSkyDomeSceneNode.h"
+	"CParticleSystemSceneNode.h"
+	"CDummyTransformationSceneNode.h"
+	"CWaterSurfaceSceneNode.h"
+	"CTerrainSceneNode.h"
+	"CEmptySceneNode.h"
+	"CTextSceneNode.h"
+	"CQuake3ShaderSceneNode.h"
+	"CVolumeLightSceneNode.h"
+	"CDefaultSceneNodeFactory.h"
+	"CSceneCollisionManager.h"
+	"CTriangleSelector.h"
+	"COctreeTriangleSelector.h"
+	"CTriangleBBSelector.h"
+	"CMetaTriangleSelector.h"
+	"CTerrainTriangleSelector.h"
+	"CSceneNodeAnimatorRotation.h"
+	"CSceneNodeAnimatorFlyCircle.h"
+	"CSceneNodeAnimatorFlyStraight.h"
+	"CSceneNodeAnimatorTexture.h"
+	"CSceneNodeAnimatorCollisionResponse.h"
+	"CSceneNodeAnimatorDelete.h"
+	"CSceneNodeAnimatorFollowSpline.h"
+	"CSceneNodeAnimatorCameraFPS.h"
+	"CSceneNodeAnimatorCameraMaya.h"
+	"CDefaultSceneNodeAnimatorFactory.h"
+	"CGeometryCreator.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneManager.h
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ICursorControl.h"
+	"irrString.h"
+	"irrArray.h"
+	"IMeshLoader.h"
+	"CAttributes.h"
+	"ILightManager.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMeshFileLoader.h
+	"IMeshLoader.h"
+	"irrString.h"
+	"CSkinnedMesh.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSTLMeshFileLoader.h
+	"IMeshLoader.h"
+	"irrString.h"
+	"vector3d.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSMFMeshFileLoader.h
+	"IMeshLoader.h"
+	"SMesh.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSTLMeshWriter.h
+	"IMeshWriter.h"
+	"S3DVertex.h"
+	"irrString.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSphereSceneNode.h
+	"IMeshSceneNode.h"
+	"IMesh.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSkyBoxSceneNode.h
+	"ISceneNode.h"
+	"S3DVertex.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSkyDomeSceneNode.h
+	"ISceneNode.h"
+	"SMeshBuffer.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CWaterSurfaceSceneNode.h
+	"CMeshSceneNode.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTerrainSceneNode.h
+	"ITerrainSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"path.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTextSceneNode.h
+	"ITextSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"ISceneCollisionManager.h"
+	"SMesh.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CVolumeLightSceneNode.h
+	"IVolumeLightSceneNode.h"
+	"IMesh.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTriangleBBSelector.h
+	"CTriangleSelector.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTerrainTriangleSelector.h
+	"ITriangleSelector.h"
+	"irrArray.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorRotation.h
+	"ISceneNode.h"
+
+1390013957 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorFlyCircle.h
+	"ISceneNode.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorFlyStraight.h
+	"ISceneNodeAnimatorFinishing.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/ISceneNodeAnimatorFinishing.h
+	"ISceneNode.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorTexture.h
+	"irrArray.h"
+	"ISceneNodeAnimatorFinishing.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorCollisionResponse.h
+	"ISceneNodeAnimatorCollisionResponse.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorDelete.h
+	"ISceneNodeAnimatorFinishing.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorFollowSpline.h
+	"ISceneNode.h"
+	"irrArray.h"
+	"ISceneNodeAnimatorFinishing.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorCameraFPS.cpp
+	"CSceneNodeAnimatorCameraFPS.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"Keycodes.h"
+	"ICursorControl.h"
+	"ICameraSceneNode.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorCameraMaya.cpp
+	"CSceneNodeAnimatorCameraMaya.h"
+	"ICursorControl.h"
+	"ICameraSceneNode.h"
+	"SViewFrustum.h"
+	"ISceneManager.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorCollisionResponse.cpp
+	"CSceneNodeAnimatorCollisionResponse.h"
+	"ISceneCollisionManager.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorDelete.cpp
+	"CSceneNodeAnimatorDelete.h"
+	"ISceneManager.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorFlyCircle.cpp
+	"CSceneNodeAnimatorFlyCircle.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorFlyStraight.cpp
+	"CSceneNodeAnimatorFlyStraight.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorFollowSpline.cpp
+	"CSceneNodeAnimatorFollowSpline.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorRotation.cpp
+	"CSceneNodeAnimatorRotation.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSceneNodeAnimatorTexture.cpp
+	"CSceneNodeAnimatorTexture.h"
+	"ITexture.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CShadowVolumeSceneNode.cpp
+	"CShadowVolumeSceneNode.h"
+	"ISceneManager.h"
+	"IMesh.h"
+	"IVideoDriver.h"
+	"ICameraSceneNode.h"
+	"SViewFrustum.h"
+	"SLight.h"
+	"os.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSkinnedMesh.cpp
+	"IrrCompileConfig.h"
+	"CSkinnedMesh.h"
+	"CBoneSceneNode.h"
+	"IAnimatedMeshSceneNode.h"
+	"os.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSkyBoxSceneNode.cpp
+	"CSkyBoxSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"S3DVertex.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSkyDomeSceneNode.cpp
+	"CSkyDomeSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"IAnimatedMesh.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSMFMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CSMFMeshFileLoader.h"
+	"SAnimatedMesh.h"
+	"SMeshBuffer.h"
+	"IReadFile.h"
+	"coreutil.h"
+	"os.h"
+	"IVideoDriver.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareDriver.cpp
+	"IrrCompileConfig.h"
+	"CSoftwareDriver.h"
+	"CSoftwareTexture.h"
+	"CBlit.h"
+	"os.h"
+	"S3DVertex.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareDriver.h
+	"ITriangleRenderer.h"
+	"CNullDriver.h"
+	"SViewFrustum.h"
+	"CImage.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/ITriangleRenderer.h
+	"IReferenceCounted.h"
+	"S2DVertex.h"
+	"rect.h"
+	"IZBuffer.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/IZBuffer.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"S2DVertex.h"
+
+1390013968 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareTexture.h
+	"ITexture.h"
+	"CImage.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareDriver2.cpp
+	"IrrCompileConfig.h"
+	"CSoftwareDriver2.h"
+	"SoftwareDriver2_helper.h"
+	"CSoftwareTexture2.h"
+	"CSoftware2MaterialRenderer.h"
+	"S3DVertex.h"
+	"S4DVertex.h"
+	"CBlit.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareDriver2.h
+	"SoftwareDriver2_compile_config.h"
+	"IBurningShader.h"
+	"CNullDriver.h"
+	"CImage.h"
+	"os.h"
+	"irrString.h"
+	"SIrrCreationParameters.h"
+
+1390013969 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftware2MaterialRenderer.h
+	"SoftwareDriver2_compile_config.h"
+	"IMaterialRenderer.h"
+	"CSoftwareDriver2.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareTexture.cpp
+	"IrrCompileConfig.h"
+	"CSoftwareTexture.h"
+	"os.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSoftwareTexture2.cpp
+	"IrrCompileConfig.h"
+	"SoftwareDriver2_compile_config.h"
+	"SoftwareDriver2_helper.h"
+	"CSoftwareTexture2.h"
+	"os.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSphereSceneNode.cpp
+	"CSphereSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"S3DVertex.h"
+	"os.h"
+	"CShadowVolumeSceneNode.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSTLMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CSTLMeshFileLoader.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SAnimatedMesh.h"
+	"IReadFile.h"
+	"fast_atof.h"
+	"coreutil.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CSTLMeshWriter.cpp
+	"IrrCompileConfig.h"
+	"CSTLMeshWriter.h"
+	"os.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IAttributes.h"
+	"ISceneManager.h"
+	"IMeshCache.h"
+	"IWriteFile.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTarReader.cpp
+	"CTarReader.h"
+	"CFileList.h"
+	"CLimitReadFile.h"
+	"os.h"
+	"coreutil.h"
+	"errno.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTerrainSceneNode.cpp
+	"CTerrainSceneNode.h"
+	"CTerrainTriangleSelector.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"ICameraSceneNode.h"
+	"SViewFrustum.h"
+	"irrMath.h"
+	"os.h"
+	"IGUIFont.h"
+	"IFileSystem.h"
+	"IReadFile.h"
+	"ITextSceneNode.h"
+	"IAnimatedMesh.h"
+	"SMesh.h"
+	"CDynamicMeshBuffer.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTerrainTriangleSelector.cpp
+	"CTerrainTriangleSelector.h"
+	"CTerrainSceneNode.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTextSceneNode.cpp
+	"CTextSceneNode.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+	"ICameraSceneNode.h"
+	"IGUISpriteBank.h"
+	"SMeshBuffer.h"
+	"os.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRFlat.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraud.h
+	"IrrCompileConfig.h"
+	"ITriangleRenderer.h"
+	"IImage.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRFlatWire.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRGouraud.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRGouraud2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRGouraudAlpha2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRGouraudAlphaNoZ2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRGouraudWire.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTriangleBBSelector.cpp
+	"CTriangleBBSelector.h"
+	"ISceneNode.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTriangleSelector.cpp
+	"CTriangleSelector.h"
+	"ISceneNode.h"
+	"IMeshBuffer.h"
+	"IAnimatedMeshSceneNode.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRNormalMap.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRStencilShadow.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureBlend.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureDetailMap2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureFlat.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureFlatWire.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraud.cpp
+	"CTRTextureGouraud.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraud2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudAdd.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudAdd2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudAddNoZ2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudAlpha.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudAlphaNoZ.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudNoZ.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+	"SColor.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudNoZ2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudVertexAlpha2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureGouraudWire.cpp
+	"IrrCompileConfig.h"
+	"CTRTextureGouraud.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureLightMap2_Add.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureLightMap2_M1.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureLightMap2_M2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureLightMap2_M4.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureLightMapGouraud2_M4.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CTRTextureWire2.cpp
+	"IrrCompileConfig.h"
+	"IBurningShader.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CVideoModeList.cpp
+	"CVideoModeList.h"
+	"irrMath.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CVolumeLightSceneNode.cpp
+	"CVolumeLightSceneNode.h"
+	"IVideoDriver.h"
+	"ISceneManager.h"
+	"S3DVertex.h"
+	"os.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CWADReader.cpp
+	"IrrCompileConfig.h"
+	"CWADReader.h"
+	"os.h"
+	"coreutil.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CWaterSurfaceSceneNode.cpp
+	"CWaterSurfaceSceneNode.h"
+	"ISceneManager.h"
+	"IMeshManipulator.h"
+	"IMeshCache.h"
+	"S3DVertex.h"
+	"SMesh.h"
+	"os.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CWriteFile.cpp
+	"CWriteFile.h"
+	<stdio.h>
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMeshFileLoader.cpp
+	"IrrCompileConfig.h"
+	"CXMeshFileLoader.h"
+	"os.h"
+	"fast_atof.h"
+	"coreutil.h"
+	"ISceneManager.h"
+	"IVideoDriver.h"
+	"IFileSystem.h"
+	"IReadFile.h"
+
+1390013969 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMLReader.cpp
+	"CXMLReader.h"
+	"CXMLReaderImpl.h"
+	"IReadFile.h"
+	"os.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMLReaderImpl.h
+	"irrXML.h"
+	"irrString.h"
+	"irrArray.h"
+	"fast_atof.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CXMLWriter.cpp
+	"CXMLWriter.h"
+	<wchar.h>
+	"irrString.h"
+	"IrrCompileConfig.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CZBuffer.cpp
+	"IrrCompileConfig.h"
+	"CZBuffer.h"
+	"irrString.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CZBuffer.h
+	"IZBuffer.h"
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/CZipReader.cpp
+	"CZipReader.h"
+	"os.h"
+	"CFileList.h"
+	"CReadFile.h"
+	"coreutil.h"
+	"IrrCompileConfig.h"
+	<zlib.h>
+	"zlib/zlib.h"
+	"aesGladman/fileenc.h"
+	<bzlib.h>
+	"bzip2/bzlib.h"
+	"lzma/LzmaDec.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/zlib.h
+	"zconf.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/lzma/LzmaDec.h
+	"Types.h"
+
+1390013954 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/lzma/Types.h
+	<stddef.h>
+	<windows.h>
+
+1390013957 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/IBurningShader.cpp
+	"IrrCompileConfig.h"
+	"SoftwareDriver2_compile_config.h"
+	"IBurningShader.h"
+	"CSoftwareDriver2.h"
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/Irrlicht.cpp
+	"IrrCompileConfig.h"
+	<windows.h>
+	<crtdbg.h>
+	"irrlicht.h"
+	"CIrrDeviceWin32.h"
+	"MacOSX/CIrrDeviceMacOSX.h"
+	"CIrrDeviceWinCE.h"
+	"CIrrDeviceLinux.h"
+	"CIrrDeviceSDL.h"
+	"CIrrDeviceFB.h"
+	"CIrrDeviceConsole.h"
+
+1390013958 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/CIrrDeviceFB.h
+	"IrrCompileConfig.h"
+	"CIrrDeviceStub.h"
+	"SIrrCreationParameters.h"
+	"IrrlichtDevice.h"
+	"IImagePresenter.h"
+	"ICursorControl.h"
+	<linux/fb.h>
+	<linux/kd.h>
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/irrXML.cpp
+	"irrXML.h"
+	"irrString.h"
+	"irrArray.h"
+	"fast_atof.h"
+	"CXMLReaderImpl.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jaricom.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcapimin.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcapistd.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcarith.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jccoefct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jccolor.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcdctmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdct.h
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jchuff.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcinit.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcmainct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcmarker.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcmaster.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcomapi.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcparam.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcprepct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jcsample.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jctrans.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdapimin.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdapistd.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdarith.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdatadst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jerror.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdatasrc.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jerror.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdcoefct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdcolor.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jddctmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdhuff.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdinput.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdmainct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdmarker.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdmaster.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdmerge.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdpostct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdsample.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jdtrans.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jerror.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jversion.h"
+	"jerror.h"
+	<windows.h>
+	"jerror.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jversion.h
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jfdctflt.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jfdctfst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jfdctint.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jidctflt.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jidctfst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jidctint.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jmemmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jmemsys.h"
+
+1390013967 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jmemsys.h
+	<Files.h>
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jmemnobs.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jmemsys.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jquant1.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013967 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jquant2.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013968 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/jpeglib/jutils.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/leakHunter.cpp
+	"leakHunter.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/png.c
+	"pngpriv.h"
+
+1390013962 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngpriv.h
+	<stdlib.h>
+	<string.h>
+	<config.h>
+	"pnglibconf.h"
+	"pngprefix.h"
+	"pngusr.h"
+	"png.h"
+	<float.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<windows.h>
+	"pngstruct.h"
+	"pnginfo.h"
+	"pngdebug.h"
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngstruct.h
+	"zlib.h"
+
+1390013960 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pnginfo.h
+
+1390013959 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngdebug.h
+	<crtdbg.h>
+	<stdio.h>
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngerror.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngget.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngmem.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngpread.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngread.c
+	"pngpriv.h"
+	<errno.h>
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngrio.c
+	"pngpriv.h"
+
+1390013962 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngrtran.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngrutil.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngset.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngtrans.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngwio.c
+	"pngpriv.h"
+
+1390013960 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngwrite.c
+	"pngpriv.h"
+	<errno.h>
+
+1390013959 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngwtran.c
+	"pngpriv.h"
+
+1390013961 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/libpng/pngwutil.c
+	"pngpriv.h"
+
+1390013954 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/lzma/LzmaDec.c
+	"LzmaDec.h"
+	<string.h>
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/os.cpp
+	"os.h"
+	"irrString.h"
+	"IrrCompileConfig.h"
+	"irrMath.h"
+	<SDL/SDL_endian.h>
+	<stdlib.h>
+	<libkern/OSByteOrder.h>
+	<sys/endian.h>
+	<byteswap.h>
+	<xtl.h>
+	<windows.h>
+	<time.h>
+	<stdio.h>
+	<time.h>
+	<sys/time.h>
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/adler32.c
+	"zutil.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<alloc.h>
+	<malloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/compress.c
+	"zlib.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/crc32.c
+	<stdio.h>
+	"zutil.h"
+	"crc32.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/crc32.h
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/deflate.c
+	"deflate.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/deflate.h
+	"zutil.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inftrees.h
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inflate.h
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inffast.h
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inffixed.h
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/trees.h
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/uncompr.c
+	"zlib.h"
+
+1390013964 source:/media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/zutil.c
+	"zutil.h"
+	"gzguts.h"
+
+1390013964 /media/Erde/dev_github/irrlicht-code/source/Irrlicht/zlib/gzguts.h
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<limits.h>
+	<fcntl.h>
+	<stddef.h>
+	<io.h>
+	<windows.h>
+	<errno.h>
+

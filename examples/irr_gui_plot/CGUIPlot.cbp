@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpp_parser" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Linux_Debug">
+				<Option platforms="Unix;" />
+				<Option output="irrlicht_sfml_midi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Linux_Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Linux_Release">
+				<Option platforms="Unix;" />
+				<Option output="irrlicht_sfml_midi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Linux_Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="--static" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add directory="../../include/Irrlicht" />
+					<Add directory="../../include/SFML-2.1" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\..\lib\Linux\libIrrlicht.a" />
+					<Add library="..\..\lib\Linux\libsfml-system.a" />
+					<Add library="..\..\lib\Linux\libsfml-audio.a" />
+					<Add library="Xxf86vm" />
+					<Add library="GL" />
+					<Add library="GLU" />
+					<Add library="X11" />
+				</Linker>
+			</Target>
+			<Target title="Win32_Release">
+				<Option output="cpp_parser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Win32_Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="--static" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add directory="../../include/SFML-2.1" />
+					<Add directory="../../include/Irrlicht" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Irrlicht" />
+					<Add library="gdi32" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="winmm" />
+					<Add library="advapi32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add directory="../../lib/Win32-gcc" />
+				</Linker>
+			</Target>
+			<Target title="Win32_Debug">
+				<Option platforms="Unix;" />
+				<Option output="cpp_parser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Win32_Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cpp_parser.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
